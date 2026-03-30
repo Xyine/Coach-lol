@@ -21,23 +21,37 @@ def find_the_champion():
     ]
 
     champion_to_find = random.choice(champion_list)
-    guess = input("Champion guess: ")
 
-    while guess != champion_to_find:
+    while True:
+        guess = input("Champion guess: ")
+
         if guess not in champion_list:
             print("You should guess an existing lol champion\n")
-
+            continue
         elif guess != champion_to_find:
             print(f"The champion is not: {guess}")
             if len(guess) > len(champion_to_find):
-                print(f"The champion name has less than {len(guess)} letters\n")
+                print(f"The champion name has less than {len(guess)} letters")
             elif len(guess) < len(champion_to_find):
-                print(f"The champion name has more than {len(guess)} letters\n")
+                print(f"The champion name has more than {len(guess)} letters")
             else:
-                print(f"The champion name has indeed {len(guess)} letters\n")
+                print(f"The champion name has indeed {len(guess)} letters")
 
-        guess = input("Champion guess: ")
-            
+            letter_found = []
+            for letter in guess:
+                if letter in champion_to_find:
+                    letter_found.append(letter)
+
+            if len(letter_found) == 1:
+                print(f"There is a {''.join(letter_found)}\n")
+            elif len(letter_found) > 1:
+                print(f"There are {', '.join(letter_found)}\n")
+            else:
+                print("None of these letter are in the champion's name\n")
+
+        else:
+            break
+
     print(f"Sucess the champion was: {champion_to_find}")
 
 
