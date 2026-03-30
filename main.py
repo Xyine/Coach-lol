@@ -1,3 +1,4 @@
+from collections import Counter
 import random
 
 
@@ -20,12 +21,12 @@ def find_the_champion():
         "Zyra"
     ]
 
-    champion_to_find = random.choice(champion_list)
+    champion_to_find = random.choice(champion_list).lower()
 
     while True:
-        guess = input("Champion guess: ")
+        guess = input("Champion guess: ").strip().lower()
 
-        if guess not in champion_list:
+        if guess not in [c.lower() for c in champion_list]:
             print("You should guess an existing lol champion\n")
             continue
         elif guess != champion_to_find:
@@ -37,15 +38,12 @@ def find_the_champion():
             else:
                 print(f"The champion name has indeed {len(guess)} letters")
 
-            letter_found = []
-            for letter in guess:
-                if letter in champion_to_find:
-                    letter_found.append(letter)
+            letter_found = Counter(guess) & Counter(champion_to_find)
 
-            if len(letter_found) == 1:
+            if sum(letter_found.values()) == 1:
                 print(f"There is a {''.join(letter_found)}\n")
-            elif len(letter_found) > 1:
-                print(f"There are {', '.join(letter_found)}\n")
+            elif sum(letter_found.values()) > 1:
+                print("There are " + ", ".join(f"{k} x{v}" for k, v in letter_found.items()) + "\n")
             else:
                 print("None of these letter are in the champion's name\n")
 
