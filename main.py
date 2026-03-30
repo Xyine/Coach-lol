@@ -28,7 +28,13 @@ def find_the_champion():
             print("You should guess an existing lol champion\n")
 
         elif guess != champion_to_find:
-            print(f"The champion is not: {guess}\n")
+            print(f"The champion is not: {guess}")
+            if len(guess) > len(champion_to_find):
+                print(f"The champion name has less than {len(guess)} letters\n")
+            elif len(guess) < len(champion_to_find):
+                print(f"The champion name has more than {len(guess)} letters\n")
+            else:
+                print(f"The champion name has indeed {len(guess)} letters\n")
 
         guess = input("Champion guess: ")
             
