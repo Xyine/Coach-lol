@@ -20,12 +20,15 @@ champion_name_list = [
     "Zyra"
 ]
 
+keep = ["name", "gender", "positions", "species", "resource", "range_type", "regions", "release_date"]
+
 
 def count_champions_in_file(file):
     with open(file) as json_data:
         champions = json.load(json_data)
 
     return len(champions)
+
 
 def missing_champion(files):
     champions = set()
@@ -39,6 +42,7 @@ def missing_champion(files):
     full_champions = set(champion_name_list)
 
     return full_champions - champions
+
 
 def merged_dataset(files, output_file):
     merged_data = []
@@ -60,6 +64,7 @@ def merged_dataset(files, output_file):
     with open(output_file, 'w', encoding="utf-8") as f:
         json.dump(merged_data, f, indent=4)
 
+
 def merge_dict_with_rename(d1, d2):
     result = d1.copy()
 
@@ -76,8 +81,9 @@ def merge_dict_with_rename(d1, d2):
 
     return result
 
+
 def filter_common_data(file):
-    with open(file,) as f:
+    with open(file) as f:
         champs = json.load(f)
 
     merged = {}
@@ -97,10 +103,80 @@ def filter_common_data(file):
     with open(file, 'w', encoding="utf-8") as f:
         json.dump(result, f, indent=4)
 
-merged_dataset(["champs_data/champions.json", "champs_data/find_champs.json", "champs_data/find-champ-data.json"], 'champs_data/merge_champs.json')
-print(count_champions_in_file('champs_data/merge_champs.json'))
-filter_common_data('champs_data/merge_champs.json')
-print(count_champions_in_file('champs_data/merge_champs.json'))
+
+def clean_dataset(input_file, output_file):
+    with open(input_file) as f:
+        champs = json.load(f)
+
+    mapping = {
+        "positions": "lane",
+        "range_type": "attackType",
+        "regions": "region",
+        "release_date": "releaseDate",
+        "resource": "resource1"
+    }
+
+    for champ in champs:
+        for target, source in mapping.items():
+            if  not champ.get(target) and champ.get(source):
+                champ[target] = champ[source]
+
+    with open(output_file, 'w', encoding="utf-8") as f:
+        json.dump(champs, f, indent=4)
+
+
+def patch_dataset(dataset, patch_dataset):
+    with open(dataset) as f:
+        champs = json.load(f)
+    with open(patch_dataset) as f:
+        fix = json.load(f)
+
+    for champ in champs:
+        name = champ.get("name")
+        if name in fix:
+            champ.update(fix[name])
+
+    with open(dataset, 'w') as f:
+        json.dump(champs, f, indent=4)
+
+
+def create_find_champs_dataset(input_file, output_file):
+    with open(input_file) as f:
+        champs = json.load(f)
+
+    result = [
+        {k: v for k, v in champ.items() if k in keep}
+        for champ in champs
+    ]
+
+    with open(output_file, 'w', encoding="utf-8") as f:
+        json.dump(result, f, indent=4)
+
+
+def validate_data(file):
+    with open(file) as f:
+        champs = json.load(f)
+    
+    result = {}
+
+    for champ in champs:
+        missing = [info for info in keep if not champ.get(info)]
+        if missing:
+            result[champ["name"]] = missing
+
+    return result
+
+# clean_dataset('champs_data/merge_champs.json', 'champs_data/clean_merge_champs.json')
+# patch_dataset('champs_data/clean_merge_champs.json', 'champs_data/manual_fix.json')
+# create_find_champs_dataset('champs_data/clean_merge_champs.json', 'champs_data/find_champs.json')
+# print(validate_data('champs_data/find_champs.json'))
+
+# create_find_champs_dataset('champs_data/merge_champs.json', 'champs_data/find_champs.json')
+
+# merged_dataset(["champs_data/champions.json", "champs_data/find_champs.json", "champs_data/find-champ-data.json"], 'champs_data/merge_champs.json')
+# print(count_champions_in_file('champs_data/merge_champs.json'))
+# filter_common_data('champs_data/merge_champs.json')
+# print(count_champions_in_file('champs_data/merge_champs.json'))
 
 
 def create_common_dataset(files):
