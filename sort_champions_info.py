@@ -1,27 +1,19 @@
 import json
 import os
+import time
 
 
-champion_name_list = [
-    "Aatrox", "Ahri", "Akali", "Akshan", "Alistar", "Ambessa", "Amumu", "Anivia", "Annie", "Aphelios", "Ashe", "Aurelion Sol", 
-    "Aurora", "Azir", "Bard", "Bel'Veth", "Blitzcrank", "Brand", "Braum", "Briar", "Caitlyn", "Camille", "Cassiopeia", "Cho'Gath", 
-    "Corki", "Darius", "Diana", "Dr. Mundo", "Draven", "Ekko", "Elise", "Evelynn", "Ezreal", "Fiddlesticks", "Fiora", "Fizz", 
-    "Galio", "Gangplank", "Garen", "Gnar", "Gragas", "Graves", "Gwen", "Hecarim", "Heimerdinger", "Hwei", "Illaoi", "Irelia", 
-    "Ivern", "Janna", "Jarvan IV", "Jax", "Jayce", "Jhin", "Jinx", "Kai'Sa", "Kalista", "Karma", "Karthus", "Kassadin", "Katarina", 
-    "Kayle", "Kayn", "Kennen", "Kha'Zix", "Kindred", "Kled", "Kog'Maw", "K'Sante", "LeBlanc", "Lee Sin", "Leona", "Lillia", 
-    "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", "Malzahar", "Maokai", "Master Yi", "Mel", "Milio", "Miss Fortune", 
-    "Mordekaiser", "Morgana", "Naafiri", "Nami", "Nasus", "Nautilus", "Neeko", "Nidalee", "Nilah", "Nocturne", "Nunu & Willump", 
-    "Olaf", "Orianna", "Ornn", "Pantheon", "Poppy", "Pyke", "Qiyana", "Quinn", "Rakan", "Rammus", "Rek'Sai", "Rell", 
-    "Renata Glasc", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Samira", "Sejuani", "Senna", "Seraphine", "Sett", "Shaco", 
-    "Shen", "Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Smolder", "Sona", "Soraka", "Swain", "Sylas", "Syndra", "Tahm Kench", 
-    "Taliyah", "Talon", "Taric", "Teemo", "Thresh", "Tristana", "Trundle", "Tryndamere", "Twisted Fate", "Twitch", "Udyr", "Urgot", 
-    "Varus", "Vayne", "Veigar", "Vel'Koz", "Vex", "Vi", "Viego", "Viktor", "Vladimir", "Volibear", "Warwick", "Wukong", "Xayah", 
-    "Xerath", "Xin Zhao", "Yasuo", "Yone", "Yorick", "Yunara", "Yuumi", "Zaahen", "Zac", "Zed", "Zeri", "Ziggs", "Zilean", "Zoe", 
-    "Zyra"
-]
+config_file = 'config.json'
 
-keep = ["name", "gender", "positions", "species", "resource", "range_type", "regions", "release_date"]
+with open(config_file) as f:
+    config = json.load(f)
 
+champion_name_list = config["champions"]
+keep = config["keep"]
+
+
+#====================================================
+# UTILS VALIDATE DATASET
 
 def count_champions_in_file(file):
     with open(file) as json_data:
@@ -44,7 +36,24 @@ def missing_champion(files):
     return full_champions - champions
 
 
-def merged_dataset(files, output_file):
+def validate_data(file):
+    with open(file) as f:
+        champs = json.load(f)
+    
+    result = {}
+
+    for champ in champs:
+        missing = [info for info in keep if not champ.get(info)]
+        if missing:
+            result[champ["name"]] = missing
+
+    return result
+
+
+#===================================================
+# UTILS CREATE AND CLEAN DATASET
+
+def merge_dataset(files, output_file):
     merged_data = []
     for file in files:
         try: 
@@ -153,39 +162,26 @@ def create_find_champs_dataset(input_file, output_file):
         json.dump(result, f, indent=4)
 
 
-def validate_data(file):
-    with open(file) as f:
-        champs = json.load(f)
-    
-    result = {}
+def create_common_dataset(files, output_file):
+    merged_file = "champs_data/merge_data.json"
+    cleaned_file = "champs_data/clean_merge_data.json"
+    patch_file = "champs_data/manual_fix.json"
 
-    for champ in champs:
-        missing = [info for info in keep if not champ.get(info)]
-        if missing:
-            result[champ["name"]] = missing
+    t0 = time.perf_counter()
 
-    return result
+    merge_dataset(files, merged_file)
+    filter_common_data(merged_file)
+    clean_dataset(merged_file, cleaned_file)
+    patch_dataset(cleaned_file, patch_file)
+    create_find_champs_dataset(cleaned_file, output_file)
 
-# clean_dataset('champs_data/merge_champs.json', 'champs_data/clean_merge_champs.json')
-# patch_dataset('champs_data/clean_merge_champs.json', 'champs_data/manual_fix.json')
-# create_find_champs_dataset('champs_data/clean_merge_champs.json', 'champs_data/find_champs.json')
+    t1 = time.perf_counter()
+    return f"Result available at: {output_file}\nTotal work time: {t1 - t0:.4f} seconds"
+
+
+#========================================================
+# USE
+
+# print(create_common_dataset(['champs_data/champs_data_1.json', 'champs_data/champs_data_2.json', 'champs_data/champs_data_3.json'], 'champs_data/find_champs.json'))
 # print(validate_data('champs_data/find_champs.json'))
-
-# create_find_champs_dataset('champs_data/merge_champs.json', 'champs_data/find_champs.json')
-
-# merged_dataset(["champs_data/champions.json", "champs_data/find_champs.json", "champs_data/find-champ-data.json"], 'champs_data/merge_champs.json')
-# print(count_champions_in_file('champs_data/merge_champs.json'))
-# filter_common_data('champs_data/merge_champs.json')
-# print(count_champions_in_file('champs_data/merge_champs.json'))
-
-
-def create_common_dataset(files):
-    return
-
-
-# print(missing_champion(["champs_data/champions.json", "champs_data/find_champs.json", "champs_data/find-champ-data.json"]))
-
-# print(count_champions_in_file("champs_data/champions.json"))
-# print(count_champions_in_file("champs_data/loldle_champs.json"))
-# print(count_champions_in_file("champs_data/loldle-champ-data.json"))
 
