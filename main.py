@@ -2,31 +2,27 @@ from collections import Counter
 import random
 
 
-def find_the_champion():
-    champion_list = [
-        "Aatrox", "Ahri", "Akali", "Akshan", "Alistar", "Ambessa", "Amumu", "Anivia", "Annie", "Aphelios", "Ashe", "Aurelion Sol", 
-        "Aurora", "Azir", "Bard", "Bel'Veth", "Blitzcrank", "Brand", "Braum", "Briar", "Caitlyn", "Camille", "Cassiopeia", "Cho'Gath", 
-        "Corki", "Darius", "Diana", "Dr. Mundo", "Draven", "Ekko", "Elise", "Evelynn", "Ezreal", "Fiddlesticks", "Fiora", "Fizz", 
-        "Galio", "Gangplank", "Garen", "Gnar", "Gragas", "Graves", "Gwen", "Hecarim", "Heimerdinger", "Hwei", "Illaoi", "Irelia", 
-        "Ivern", "Janna", "Jarvan IV", "Jax", "Jayce", "Jhin", "Jinx", "Kai'Sa", "Kalista", "Karma", "Karthus", "Kassadin", "Katarina", 
-        "Kayle", "Kayn", "Kennen", "Kha'Zix", "Kindred", "Kled", "Kog'Maw", "K'Sante", "LeBlanc", "Lee Sin", "Leona", "Lillia", 
-        "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", "Malzahar", "Maokai", "Master Yi", "Mel", "Milio", "Miss Fortune", 
-        "Mordekaiser", "Morgana", "Naafiri", "Nami", "Nasus", "Nautilus", "Neeko", "Nidalee", "Nilah", "Nocturne", "Nunu & Willump", 
-        "Olaf", "Orianna", "Ornn", "Pantheon", "Poppy", "Pyke", "Qiyana", "Quinn", "Rakan", "Rammus", "Rek'Sai", "Rell", 
-        "Renata Glasc", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Samira", "Sejuani", "Senna", "Seraphine", "Sett", "Shaco", 
-        "Shen", "Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Smolder", "Sona", "Soraka", "Swain", "Sylas", "Syndra", "Tahm Kench", 
-        "Taliyah", "Talon", "Taric", "Teemo", "Thresh", "Tristana", "Trundle", "Tryndamere", "Twisted Fate", "Twitch", "Udyr", "Urgot", 
-        "Varus", "Vayne", "Veigar", "Vel'Koz", "Vex", "Vi", "Viego", "Viktor", "Vladimir", "Volibear", "Warwick", "Wukong", "Xayah", 
-        "Xerath", "Xin Zhao", "Yasuo", "Yone", "Yorick", "Yunara", "Yuumi", "Zaahen", "Zac", "Zed", "Zeri", "Ziggs", "Zilean", "Zoe", 
-        "Zyra"
-    ]
+GREEN = "\033[92m"
+YELLOW = "\033[93m"
+RED = "\033[91m"
+RESET = "\033[0m"
 
-    champion_to_find = random.choice(champion_list).lower()
+
+config_file = 'config.json'
+
+with open(config_file) as f:
+    config = json.load(f)
+
+champion_name_list = config["champions"]
+
+def find_the_champion_by_letter():
+
+    champion_to_find = random.choice(champion_name_list).lower()
 
     while True:
         guess = input("Champion guess: ").strip().lower()
 
-        if guess not in [c.lower() for c in champion_list]:
+        if guess not in [c.lower() for c in champion_name_list]:
             print("You should guess an existing lol champion\n")
             continue
         elif guess != champion_to_find:
@@ -53,4 +49,46 @@ def find_the_champion():
     print(f"Sucess the champion was: {champion_to_find}")
 
 
-find_the_champion()
+def format_value(val, color):
+    return f"{color}{val}{RESET}"
+
+
+def find_the_champ_with_info(file):
+    with open(file) as f:
+        champs = json.load(f)
+
+    champions_by_name = {champ["name"].lower(): champ for champ in champs}
+
+    champion_to_find = random.choice(champs)
+
+    while True:
+        guess = input("Champion guess: ").strip().lower()
+
+        if guess not in champions_by_name:
+            print("You should guess an existing lol champion\n")
+            continue
+        elif champions_by_name[guess] != champion_to_find:
+            guess_info_color = ""
+
+            for k, val_guess in champions_by_name[guess].items():
+                val_target = champion_to_find[k]
+
+                if val_guess == val_target:
+                    guess_info_color += format_value(val_guess, GREEN) + " | "
+
+                elif isinstance(val_guess, list) and isinstance(val_target, list):
+                    if set(val_guess) & set(val_target):
+                        guess_info_color += format_value(val_guess, YELLOW) + " | "
+                    else:
+                        guess_info_color += format_value(val_guess, RED) + " | "
+
+                else:
+                    guess_info_color += format_value(val_guess, RED) + " | "
+            print(guess_info_color)
+        else:
+            break
+
+    print(f"Sucess the champion was: {champion_to_find}")
+
+find_the_champ_with_info('champs_data/find_champs.json')
+    
