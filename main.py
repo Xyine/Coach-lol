@@ -1,4 +1,5 @@
 from collections import Counter
+import json
 import random
 
 
@@ -49,8 +50,24 @@ def find_the_champion_by_letter():
     print(f"Sucess the champion was: {champion_to_find}")
 
 
-def format_value(val, color):
-    return f"{color}{val}{RESET}"
+def has_common_element(a, b):
+    return bool(set(a) & set(b))
+
+
+def get_color(val_guess, val_target):
+    if val_guess == val_target:
+        return GREEN
+
+    if isinstance(val_guess, list) and isinstance(val_target, list):
+        if has_common_element(val_guess, val_target):
+            return YELLOW
+
+    return RED
+
+
+def format_guess(val_guess, val_target):
+    color = get_color(val_guess, val_target)
+    return f"{color}{val_guess}{RESET}"
 
 
 def find_the_champ_with_info(file):
@@ -67,24 +84,15 @@ def find_the_champ_with_info(file):
         if guess not in champions_by_name:
             print("You should guess an existing lol champion\n")
             continue
+
         elif champions_by_name[guess] != champion_to_find:
-            guess_info_color = ""
-
-            for k, val_guess in champions_by_name[guess].items():
-                val_target = champion_to_find[k]
-
-                if val_guess == val_target:
-                    guess_info_color += format_value(val_guess, GREEN) + " | "
-
-                elif isinstance(val_guess, list) and isinstance(val_target, list):
-                    if set(val_guess) & set(val_target):
-                        guess_info_color += format_value(val_guess, YELLOW) + " | "
-                    else:
-                        guess_info_color += format_value(val_guess, RED) + " | "
-
-                else:
-                    guess_info_color += format_value(val_guess, RED) + " | "
-            print(guess_info_color)
+            guess_info = " | ".join(
+                format_guess(val_guess, champion_to_find[k]) 
+                for k, val_guess in champions_by_name[guess].items()
+            )
+                
+            print(guess_info)
+        
         else:
             break
 
