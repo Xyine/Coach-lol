@@ -36,6 +36,26 @@ def missing_champion(files):
     return full_champions - champions
 
 
+def get_unique_values_by_category(file_path):
+    with open(file_path) as f:
+        champions = json.load(f)
+
+    result = {}
+
+    for attribute in champions[0].keys():
+        unique_values = set()
+        for champion in champions:
+            value = champion[attribute]
+            if isinstance(value, list):
+                unique_values.update(value)
+            else:
+                unique_values.add(value)
+        
+        result[attribute] = unique_values
+
+    return result
+
+
 def validate_data(file):
     with open(file) as f:
         champs = json.load(f)
