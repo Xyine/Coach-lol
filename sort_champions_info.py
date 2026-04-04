@@ -137,7 +137,7 @@ def clean_dataset(input_file, output_file):
     with open(input_file) as f:
         champs = json.load(f)
 
-    mapping = {
+    key_mapping = {
         "positions": "lane",
         "range_type": "attackType",
         "regions": "region",
@@ -146,9 +146,21 @@ def clean_dataset(input_file, output_file):
     }
 
     for champ in champs:
-        for target, source in mapping.items():
+        for target, source in key_mapping.items():
             if  not champ.get(target) and champ.get(source):
                 champ[target] = champ[source]
+
+    value_mapping = {
+        "range_type": {"close": "Melee", "Ranged": "Range"},
+        "resource": {"Manaless": "None"}
+    }
+
+    for champ in champs:
+        for key, value in value_mapping.items():
+            if not isinstance(champ[key], list):
+                champ[key] = [champ[key]]
+            if champ[key][0] in value:
+                champ[key][0] = value[champ[key][0]]
 
     with open(output_file, 'w', encoding="utf-8") as f:
         json.dump(champs, f, indent=4)
