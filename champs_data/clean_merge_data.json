@@ -40,7 +40,9 @@
         "id1": "Aatrox",
         "name1": "Aatrox",
         "title1": "the Darkin Blade",
-        "resource": "Blood Well",
+        "resource": [
+            "Blood Well"
+        ],
         "genre": "Fighter",
         "skinCount": 13,
         "image": {
@@ -131,7 +133,9 @@
         "id1": "Ahri",
         "name1": "Ahri",
         "title1": "the Nine-Tailed Fox",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Assassin",
         "skinCount": 22,
         "image": {
@@ -165,7 +169,7 @@
         "resource1": "Mana",
         "release_date": "2011-12-14",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -221,7 +225,9 @@
         "id1": "Akali",
         "name1": "Akali",
         "title1": "the Rogue Assassin",
-        "resource": "Energy",
+        "resource": [
+            "Energy"
+        ],
         "genre": "Assassin",
         "skinCount": 22,
         "image": {
@@ -312,7 +318,9 @@
         "id1": "Alistar",
         "name1": "Alistar",
         "title1": "the Minotaur",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Support",
         "skinCount": 16,
         "image": {
@@ -402,7 +410,9 @@
         "id1": "Amumu",
         "name1": "Amumu",
         "title1": "the Sad Mummy",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Support",
         "skinCount": 15,
         "image": {
@@ -495,7 +505,9 @@
         "id1": "Anivia",
         "name1": "Anivia",
         "title1": "the Cryophoenix",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 13,
         "image": {
@@ -530,7 +542,7 @@
         "resource1": "Mana",
         "release_date": "2009-07-10",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -585,7 +597,9 @@
         "id1": "Annie",
         "name1": "Annie",
         "title1": "the Dark Child",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 18,
         "image": {
@@ -621,7 +635,7 @@
         "resource1": "Mana",
         "release_date": "2009-02-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             450,
@@ -677,7 +691,9 @@
         "id1": "Aphelios",
         "name1": "Aphelios",
         "title1": "the Weapon of the Faithful",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman",
         "skinCount": 7,
         "image": {
@@ -712,7 +728,7 @@
         "resource1": "Mana",
         "release_date": "2019-12-11",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -769,7 +785,9 @@
         "id1": "Ashe",
         "name1": "Ashe",
         "title1": "the Frost Archer",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Support",
         "skinCount": 20,
         "image": {
@@ -805,7 +823,7 @@
         "resource1": "Mana",
         "release_date": "2009-02-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             450,
@@ -861,7 +879,9 @@
         "id1": "AurelionSol",
         "name1": "Aurelion Sol",
         "title1": "The Star Forger",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 6,
         "image": {
@@ -897,7 +917,7 @@
         "resource1": "Mana",
         "release_date": "2016-03-24",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -954,7 +974,9 @@
         "id1": "Azir",
         "name1": "Azir",
         "title1": "the Emperor of the Sands",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Marksman",
         "skinCount": 8,
         "image": {
@@ -988,7 +1010,7 @@
         "resource1": "Mana",
         "release_date": "2014-09-16",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -1044,7 +1066,9 @@
         "id1": "Bard",
         "name1": "Bard",
         "title1": "the Wandering Caretaker",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 9,
         "image": {
@@ -1078,7 +1102,7 @@
         "resource1": "Mana",
         "release_date": "2015-03-12",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -1134,7 +1158,9 @@
         "id1": "Blitzcrank",
         "name1": "Blitzcrank",
         "title1": "the Great Steam Golem",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Support",
         "skinCount": 16,
         "image": {
@@ -1223,7 +1249,9 @@
         "id1": "Brand",
         "name1": "Brand",
         "title1": "the Burning Vengeance",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 13,
         "image": {
@@ -1259,7 +1287,7 @@
         "resource1": "Mana",
         "release_date": "2011-04-12",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -1317,7 +1345,9 @@
         "id1": "Braum",
         "name1": "Braum",
         "title1": "the Heart of the Freljord",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Support",
         "skinCount": 9,
         "image": {
@@ -1408,7 +1438,9 @@
         "id1": "Caitlyn",
         "name1": "Caitlyn",
         "title1": "the Sheriff of Piltover",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman",
         "skinCount": 20,
         "image": {
@@ -1442,7 +1474,7 @@
         "resource1": "Mana",
         "release_date": "2011-01-04",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -1498,7 +1530,9 @@
         "id1": "Camille",
         "name1": "Camille",
         "title1": "the Steel Shadow",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 8,
         "image": {
@@ -1589,7 +1623,9 @@
         "id1": "Cassiopeia",
         "name1": "Cassiopeia",
         "title1": "the Serpent's Embrace",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 10,
         "image": {
@@ -1625,7 +1661,7 @@
         "resource1": "Mana",
         "release_date": "2010-12-14",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -1683,7 +1719,9 @@
         "id1": "Chogath",
         "name1": "Cho'Gath",
         "title1": "the Terror of the Void",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Mage",
         "skinCount": 12,
         "image": {
@@ -1695,7 +1733,7 @@
             "w": 48,
             "h": 48
         },
-        "gender": "divers",
+        "gender": "Male",
         "attackType": "close",
         "releaseDate": 2009,
         "region": "void",
@@ -1772,7 +1810,9 @@
         "id1": "Corki",
         "name1": "Corki",
         "title1": "the Daring Bombardier",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Mage",
         "skinCount": 12,
         "image": {
@@ -1807,7 +1847,7 @@
         "resource1": "Mana",
         "release_date": "2009-09-19",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -1865,7 +1905,9 @@
         "id1": "Darius",
         "name1": "Darius",
         "title1": "the Hand of Noxus",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 16,
         "image": {
@@ -1955,7 +1997,9 @@
         "id1": "Diana",
         "name1": "Diana",
         "title1": "Scorn of the Moon",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 15,
         "image": {
@@ -2046,7 +2090,9 @@
         "id1": "Draven",
         "name1": "Draven",
         "title1": "the Glorious Executioner",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman",
         "skinCount": 15,
         "image": {
@@ -2080,7 +2126,7 @@
         "resource1": "Mana",
         "release_date": "2012-06-06",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -2136,7 +2182,9 @@
         "id1": "DrMundo",
         "name1": "Dr. Mundo",
         "title1": "the Madman of Zaun",
-        "resource": "None",
+        "resource": [
+            "None"
+        ],
         "genre": "Tank,Fighter",
         "skinCount": 12,
         "image": {
@@ -2229,7 +2277,9 @@
         "id1": "Ekko",
         "name1": "Ekko",
         "title1": "the Boy Who Shattered Time",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin,Mage",
         "skinCount": 13,
         "image": {
@@ -2320,7 +2370,9 @@
         "id1": "Elise",
         "name1": "Elise",
         "title1": "the Spider Queen",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin,Mage",
         "skinCount": 10,
         "image": {
@@ -2415,7 +2467,9 @@
         "id1": "Evelynn",
         "name1": "Evelynn",
         "title1": "Agony's Embrace",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin,Mage",
         "skinCount": 17,
         "image": {
@@ -2506,7 +2560,9 @@
         "id1": "Ezreal",
         "name1": "Ezreal",
         "title1": "the Prodigal Explorer",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Mage",
         "skinCount": 22,
         "image": {
@@ -2541,7 +2597,7 @@
         "resource1": "Mana",
         "release_date": "2010-03-16",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -2598,7 +2654,9 @@
         "id1": "Fiddlesticks",
         "name1": "Fiddlesticks",
         "title1": "the Ancient Fear",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 13,
         "image": {
@@ -2633,7 +2691,7 @@
         "resource1": "Mana",
         "release_date": "2009-02-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             1350,
@@ -2689,7 +2747,9 @@
         "id1": "Fiora",
         "name1": "Fiora",
         "title1": "the Grand Duelist",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 17,
         "image": {
@@ -2779,7 +2839,9 @@
         "id1": "Fizz",
         "name1": "Fizz",
         "title1": "the Tidal Trickster",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin,Fighter",
         "skinCount": 14,
         "image": {
@@ -2870,7 +2932,9 @@
         "id1": "Galio",
         "name1": "Galio",
         "title1": "the Colossus",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Mage",
         "skinCount": 11,
         "image": {
@@ -2962,7 +3026,9 @@
         "id1": "Gangplank",
         "name1": "Gangplank",
         "title1": "the Saltwater Scourge",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter",
         "skinCount": 13,
         "image": {
@@ -3052,7 +3118,9 @@
         "id1": "Garen",
         "name1": "Garen",
         "title1": "The Might of Demacia",
-        "resource": "None",
+        "resource": [
+            "None"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 17,
         "image": {
@@ -3142,7 +3210,9 @@
         "id1": "Gnar",
         "name1": "Gnar",
         "title1": "the Missing Link",
-        "resource": "Rage",
+        "resource": [
+            "Rage"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 11,
         "image": {
@@ -3234,7 +3304,9 @@
         "id1": "Gragas",
         "name1": "Gragas",
         "title1": "the Rabble Rouser",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Mage",
         "skinCount": 15,
         "image": {
@@ -3324,7 +3396,9 @@
         "id1": "Graves",
         "name1": "Graves",
         "title1": "the Outlaw",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman",
         "skinCount": 14,
         "image": {
@@ -3358,7 +3432,7 @@
         "resource1": "Mana",
         "release_date": "2011-10-19",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -3414,7 +3488,9 @@
         "id1": "Hecarim",
         "name1": "Hecarim",
         "title1": "the Shadow of War",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 13,
         "image": {
@@ -3506,7 +3582,9 @@
         "id1": "Heimerdinger",
         "name1": "Heimerdinger",
         "title1": "the Revered Inventor",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 10,
         "image": {
@@ -3541,7 +3619,7 @@
         "resource1": "Mana",
         "release_date": "2009-10-10",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -3598,7 +3676,9 @@
         "id1": "Illaoi",
         "name1": "Illaoi",
         "title1": "the Kraken Priestess",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 6,
         "image": {
@@ -3690,7 +3770,9 @@
         "id1": "Irelia",
         "name1": "Irelia",
         "title1": "the Blade Dancer",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 16,
         "image": {
@@ -3783,7 +3865,9 @@
         "id1": "Ivern",
         "name1": "Ivern",
         "title1": "the Green Father",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 6,
         "image": {
@@ -3819,7 +3903,7 @@
         "resource1": "Mana",
         "release_date": "2016-10-05",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -3876,7 +3960,9 @@
         "id1": "Janna",
         "name1": "Janna",
         "title1": "the Storm's Fury",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 17,
         "image": {
@@ -3912,7 +3998,7 @@
         "resource1": "Mana",
         "release_date": "2009-09-02",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             1350,
@@ -3968,7 +4054,9 @@
         "id1": "JarvanIV",
         "name1": "Jarvan IV",
         "title1": "the Exemplar of Demacia",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 16,
         "image": {
@@ -4151,7 +4239,9 @@
         "id1": "Jayce",
         "name1": "Jayce",
         "title1": "the Defender of Tomorrow",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Marksman",
         "skinCount": 12,
         "image": {
@@ -4243,7 +4333,9 @@
         "id1": "Jhin",
         "name1": "Jhin",
         "title1": "the Virtuoso",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Mage",
         "skinCount": 13,
         "image": {
@@ -4278,7 +4370,7 @@
         "resource1": "Mana",
         "release_date": "2016-02-01",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -4334,7 +4426,9 @@
         "id1": "Jinx",
         "name1": "Jinx",
         "title1": "the Loose Cannon",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman",
         "skinCount": 15,
         "image": {
@@ -4369,7 +4463,7 @@
         "resource1": "Mana",
         "release_date": "2013-10-10",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -4425,7 +4519,9 @@
         "id1": "Kaisa",
         "name1": "Kai'Sa",
         "title1": "Daughter of the Void",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Mage",
         "skinCount": 16,
         "image": {
@@ -4461,7 +4557,7 @@
         "resource1": "Mana",
         "release_date": "2018-03-07",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -4517,7 +4613,9 @@
         "id1": "Kalista",
         "name1": "Kalista",
         "title1": "the Spear of Vengeance",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman",
         "skinCount": 7,
         "image": {
@@ -4552,7 +4650,7 @@
         "resource1": "Mana",
         "release_date": "2014-11-20",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -4609,7 +4707,9 @@
         "id1": "Karma",
         "name1": "Karma",
         "title1": "the Enlightened One",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 16,
         "image": {
@@ -4644,7 +4744,7 @@
         "resource1": "Mana",
         "release_date": "2011-02-01",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -4700,7 +4800,9 @@
         "id1": "Karthus",
         "name1": "Karthus",
         "title1": "the Deathsinger",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 11,
         "image": {
@@ -4735,7 +4837,7 @@
         "resource1": "Mana",
         "release_date": "2009-06-12",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -4792,7 +4894,9 @@
         "id1": "Kassadin",
         "name1": "Kassadin",
         "title1": "the Void Walker",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin,Mage",
         "skinCount": 10,
         "image": {
@@ -4886,7 +4990,9 @@
         "id1": "Katarina",
         "name1": "Katarina",
         "title1": "the Sinister Blade",
-        "resource": "None",
+        "resource": [
+            "None"
+        ],
         "genre": "Assassin,Mage",
         "skinCount": 19,
         "image": {
@@ -4976,7 +5082,9 @@
         "id1": "Kayle",
         "name1": "Kayle",
         "title1": "the Righteous",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Marksman",
         "skinCount": 18,
         "image": {
@@ -5072,7 +5180,9 @@
         "id1": "Kayn",
         "name1": "Kayn",
         "title1": "the Shadow Reaper",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 8,
         "image": {
@@ -5168,7 +5278,9 @@
         "id1": "Kennen",
         "name1": "Kennen",
         "title1": "the Heart of the Tempest",
-        "resource": "Energy",
+        "resource": [
+            "Energy"
+        ],
         "genre": "Mage",
         "skinCount": 11,
         "image": {
@@ -5202,7 +5314,7 @@
         "resource1": "Energy",
         "release_date": "2010-04-08",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -5258,7 +5370,9 @@
         "id1": "Khazix",
         "name1": "Kha'Zix",
         "title1": "the Voidreaver",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin",
         "skinCount": 9,
         "image": {
@@ -5348,7 +5462,9 @@
         "id1": "Kindred",
         "name1": "Kindred",
         "title1": "The Eternal Hunters",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman",
         "skinCount": 9,
         "image": {
@@ -5383,7 +5499,7 @@
         "resource1": "Mana",
         "release_date": "2015-10-14",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -5440,7 +5556,9 @@
         "id1": "Kled",
         "name1": "Kled",
         "title1": "the Cantankerous Cavalier",
-        "resource": "Courage",
+        "resource": [
+            "Courage"
+        ],
         "genre": "Fighter",
         "skinCount": 5,
         "image": {
@@ -5532,7 +5650,9 @@
         "id1": "KogMaw",
         "name1": "Kog'Maw",
         "title1": "the Mouth of the Abyss",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Mage",
         "skinCount": 16,
         "image": {
@@ -5566,7 +5686,7 @@
         "resource1": "Mana",
         "release_date": "2010-06-24",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -5622,7 +5742,9 @@
         "id1": "Leblanc",
         "name1": "LeBlanc",
         "title1": "the Deceiver",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin,Mage",
         "skinCount": 14,
         "image": {
@@ -5657,7 +5779,7 @@
         "resource1": "Mana",
         "release_date": "2010-11-02",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -5714,7 +5836,9 @@
         "id1": "LeeSin",
         "name1": "Lee Sin",
         "title1": "the Blind Monk",
-        "resource": "Energy",
+        "resource": [
+            "Energy"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 20,
         "image": {
@@ -5806,7 +5930,9 @@
         "id1": "Leona",
         "name1": "Leona",
         "title1": "the Radiant Dawn",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Support",
         "skinCount": 18,
         "image": {
@@ -5897,7 +6023,9 @@
         "id1": "Lillia",
         "name1": "Lillia",
         "title1": "the Bashful Bloom",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Mage",
         "skinCount": 6,
         "image": {
@@ -5988,7 +6116,9 @@
         "id1": "Lissandra",
         "name1": "Lissandra",
         "title1": "the Ice Witch",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 10,
         "image": {
@@ -6023,7 +6153,7 @@
         "resource1": "Mana",
         "release_date": "2013-04-30",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -6080,7 +6210,9 @@
         "id1": "Lucian",
         "name1": "Lucian",
         "title1": "the Purifier",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Assassin",
         "skinCount": 15,
         "image": {
@@ -6115,7 +6247,7 @@
         "resource1": "Mana",
         "release_date": "2013-08-22",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -6171,7 +6303,9 @@
         "id1": "Lulu",
         "name1": "Lulu",
         "title1": "the Fae Sorceress",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 14,
         "image": {
@@ -6205,7 +6339,7 @@
         "resource1": "Mana",
         "release_date": "2012-03-20",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -6261,7 +6395,9 @@
         "id1": "Lux",
         "name1": "Lux",
         "title1": "the Lady of Luminosity",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 23,
         "image": {
@@ -6297,7 +6433,7 @@
         "resource1": "Mana",
         "release_date": "2010-10-19",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -6354,7 +6490,9 @@
         "id1": "Malphite",
         "name1": "Malphite",
         "title1": "Shard of the Monolith",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Mage",
         "skinCount": 15,
         "image": {
@@ -6445,7 +6583,9 @@
         "id1": "Malzahar",
         "name1": "Malzahar",
         "title1": "the Prophet of the Void",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 14,
         "image": {
@@ -6481,7 +6621,7 @@
         "resource1": "Mana",
         "release_date": "2010-06-01",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -6538,7 +6678,9 @@
         "id1": "Maokai",
         "name1": "Maokai",
         "title1": "the Twisted Treant",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Support",
         "skinCount": 11,
         "image": {
@@ -6629,7 +6771,9 @@
         "id1": "MasterYi",
         "name1": "Master Yi",
         "title1": "the Wuju Bladesman",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 18,
         "image": {
@@ -6720,7 +6864,9 @@
         "id1": "MissFortune",
         "name1": "Miss Fortune",
         "title1": "the Bounty Hunter",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Mage",
         "skinCount": 23,
         "image": {
@@ -6754,7 +6900,7 @@
         "resource1": "Mana",
         "release_date": "2010-09-08",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -6810,7 +6956,9 @@
         "id1": "MonkeyKing",
         "name1": "Wukong",
         "title1": "the Monkey King",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 10,
         "image": {
@@ -6900,7 +7048,9 @@
         "id1": "Mordekaiser",
         "name1": "Mordekaiser",
         "title1": "the Iron Revenant",
-        "resource": "Shield",
+        "resource": [
+            "Shield"
+        ],
         "genre": "Fighter,Mage",
         "skinCount": 13,
         "image": {
@@ -6991,7 +7141,9 @@
         "id1": "Morgana",
         "name1": "Morgana",
         "title1": "the Fallen",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 18,
         "image": {
@@ -7028,7 +7180,7 @@
         "resource1": "Mana",
         "release_date": "2009-02-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             1350,
@@ -7087,7 +7239,9 @@
         "id1": "Nami",
         "name1": "Nami",
         "title1": "the Tidecaller",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 15,
         "image": {
@@ -7121,7 +7275,7 @@
         "resource1": "Mana",
         "release_date": "2012-12-07",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -7178,7 +7332,9 @@
         "id1": "Nasus",
         "name1": "Nasus",
         "title1": "the Curator of the Sands",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 14,
         "image": {
@@ -7269,7 +7425,9 @@
         "id1": "Nautilus",
         "name1": "Nautilus",
         "title1": "the Titan of the Depths",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Support",
         "skinCount": 12,
         "image": {
@@ -7359,7 +7517,9 @@
         "id1": "Neeko",
         "name1": "Neeko",
         "title1": "the Curious Chameleon",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 10,
         "image": {
@@ -7394,7 +7554,7 @@
         "resource1": "Mana",
         "release_date": "2018-12-05",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -7450,7 +7610,9 @@
         "id1": "Nidalee",
         "name1": "Nidalee",
         "title1": "the Bestial Huntress",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin,Mage",
         "skinCount": 17,
         "image": {
@@ -7545,7 +7707,9 @@
         "id1": "Nocturne",
         "name1": "Nocturne",
         "title1": "the Eternal Nightmare",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 11,
         "image": {
@@ -7557,7 +7721,7 @@
             "w": 48,
             "h": 48
         },
-        "gender": "divers",
+        "gender": "Male",
         "attackType": "close",
         "releaseDate": 2011,
         "region": "runeterra",
@@ -7636,7 +7800,9 @@
         "id1": "Nunu",
         "name1": "Nunu & Willump",
         "title1": "the Boy and His Yeti",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Mage",
         "skinCount": 13,
         "image": {
@@ -7728,7 +7894,9 @@
         "id1": "Olaf",
         "name1": "Olaf",
         "title1": "the Berserker",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 12,
         "image": {
@@ -7822,7 +7990,9 @@
         "id1": "Orianna",
         "name1": "Orianna",
         "title1": "the Lady of Clockwork",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 13,
         "image": {
@@ -7856,7 +8026,7 @@
         "resource1": "Mana",
         "release_date": "2011-06-01",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -7912,7 +8082,9 @@
         "id1": "Ornn",
         "name1": "Ornn",
         "title1": "The Fire below the Mountain",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank",
         "skinCount": 6,
         "image": {
@@ -8003,7 +8175,9 @@
         "id1": "Pantheon",
         "name1": "Pantheon",
         "title1": "the Unbreakable Spear",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 14,
         "image": {
@@ -8096,7 +8270,9 @@
         "id1": "Poppy",
         "name1": "Poppy",
         "title1": "Keeper of the Hammer",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Fighter",
         "skinCount": 13,
         "image": {
@@ -8187,7 +8363,9 @@
         "id1": "Pyke",
         "name1": "Pyke",
         "title1": "the Bloodharbor Ripper",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Assassin",
         "skinCount": 13,
         "image": {
@@ -8277,7 +8455,9 @@
         "id1": "Qiyana",
         "name1": "Qiyana",
         "title1": "Empress of the Elements",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin",
         "skinCount": 10,
         "image": {
@@ -8370,7 +8550,9 @@
         "id1": "Quinn",
         "name1": "Quinn",
         "title1": "Demacia's Wings",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Assassin",
         "skinCount": 7,
         "image": {
@@ -8404,7 +8586,7 @@
         "resource1": "Mana",
         "release_date": "2013-03-01",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -8459,7 +8641,9 @@
         "id1": "Rakan",
         "name1": "Rakan",
         "title1": "The Charmer",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support",
         "skinCount": 13,
         "image": {
@@ -8550,7 +8734,9 @@
         "id1": "Rammus",
         "name1": "Rammus",
         "title1": "the Armordillo",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank",
         "skinCount": 12,
         "image": {
@@ -8640,7 +8826,9 @@
         "id1": "RekSai",
         "name1": "Rek'Sai",
         "title1": "the Void Burrower",
-        "resource": "Rage",
+        "resource": [
+            "Rage"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 6,
         "image": {
@@ -8731,7 +8919,9 @@
         "id1": "Renekton",
         "name1": "Renekton",
         "title1": "the Butcher of the Sands",
-        "resource": "Fury",
+        "resource": [
+            "Fury"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 16,
         "image": {
@@ -8822,7 +9012,9 @@
         "id1": "Rengar",
         "name1": "Rengar",
         "title1": "the Pridestalker",
-        "resource": "Ferocity",
+        "resource": [
+            "Ferocity"
+        ],
         "genre": "Assassin,Fighter",
         "skinCount": 9,
         "image": {
@@ -8915,7 +9107,9 @@
         "id1": "Riven",
         "name1": "Riven",
         "title1": "the Exile",
-        "resource": "None",
+        "resource": [
+            "None"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 18,
         "image": {
@@ -9006,7 +9200,9 @@
         "id1": "Rumble",
         "name1": "Rumble",
         "title1": "the Mechanized Menace",
-        "resource": "Heat",
+        "resource": [
+            "Heat"
+        ],
         "genre": "Fighter,Mage",
         "skinCount": 7,
         "image": {
@@ -9097,7 +9293,9 @@
         "id1": "Ryze",
         "name1": "Ryze",
         "title1": "the Rune Mage",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 15,
         "image": {
@@ -9133,7 +9331,7 @@
         "resource1": "Mana",
         "release_date": "2009-02-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             450,
@@ -9189,7 +9387,9 @@
         "id1": "Samira",
         "name1": "Samira",
         "title1": "the Desert Rose",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Assassin",
         "skinCount": 7,
         "image": {
@@ -9224,7 +9424,7 @@
         "resource1": "Mana",
         "release_date": "2020-09-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -9280,7 +9480,9 @@
         "id1": "Sejuani",
         "name1": "Sejuani",
         "title1": "Fury of the North",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank",
         "skinCount": 13,
         "image": {
@@ -9374,7 +9576,9 @@
         "id1": "Senna",
         "name1": "Senna",
         "title1": "the Redeemer",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Marksman",
         "skinCount": 11,
         "image": {
@@ -9409,7 +9613,7 @@
         "resource1": "Mana",
         "release_date": "2019-11-10",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -9465,7 +9669,9 @@
         "id1": "Seraphine",
         "name1": "Seraphine",
         "title1": "the Starry-Eyed Songstress",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 11,
         "image": {
@@ -9501,7 +9707,7 @@
         "resource1": "Mana",
         "release_date": "2020-10-29",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -9558,7 +9764,9 @@
         "id1": "Sett",
         "name1": "Sett",
         "title1": "the Boss",
-        "resource": "Grit",
+        "resource": [
+            "Grit"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 11,
         "image": {
@@ -9650,7 +9858,9 @@
         "id1": "Shaco",
         "name1": "Shaco",
         "title1": "the Demon Jester",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin",
         "skinCount": 16,
         "image": {
@@ -9739,7 +9949,9 @@
         "id1": "Shen",
         "name1": "Shen",
         "title1": "the Eye of Twilight",
-        "resource": "Energy",
+        "resource": [
+            "Energy"
+        ],
         "genre": "Tank",
         "skinCount": 13,
         "image": {
@@ -9831,7 +10043,9 @@
         "id1": "Shyvana",
         "name1": "Shyvana",
         "title1": "the Half-Dragon",
-        "resource": "Fury",
+        "resource": [
+            "Fury"
+        ],
         "genre": "Fighter,Mage",
         "skinCount": 9,
         "image": {
@@ -9924,7 +10138,9 @@
         "id1": "Singed",
         "name1": "Singed",
         "title1": "the Mad Chemist",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Mage",
         "skinCount": 13,
         "image": {
@@ -10017,7 +10233,9 @@
         "id1": "Sion",
         "name1": "Sion",
         "title1": "The Undead Juggernaut",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Fighter",
         "skinCount": 11,
         "image": {
@@ -10106,7 +10324,9 @@
         "id1": "Sivir",
         "name1": "Sivir",
         "title1": "the Battle Mistress",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman",
         "skinCount": 19,
         "image": {
@@ -10140,7 +10360,7 @@
         "resource1": "Mana",
         "release_date": "2009-02-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             450,
@@ -10196,7 +10416,9 @@
         "id1": "Skarner",
         "name1": "Skarner",
         "title1": "the Primordial Sovereign",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Fighter",
         "skinCount": 7,
         "image": {
@@ -10287,7 +10509,9 @@
         "id1": "Sona",
         "name1": "Sona",
         "title1": "Maven of the Strings",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 16,
         "image": {
@@ -10323,7 +10547,7 @@
         "resource1": "Mana",
         "release_date": "2010-09-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             1350,
@@ -10380,7 +10604,9 @@
         "id1": "Soraka",
         "name1": "Soraka",
         "title1": "the Starchild",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 18,
         "image": {
@@ -10415,7 +10641,7 @@
         "resource1": "Mana",
         "release_date": "2009-02-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             450,
@@ -10472,7 +10698,9 @@
         "id1": "Swain",
         "name1": "Swain",
         "title1": "the Noxian Grand General",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 10,
         "image": {
@@ -10508,7 +10736,7 @@
         "resource1": "Mana",
         "release_date": "2010-10-05",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -10565,7 +10793,9 @@
         "id1": "Sylas",
         "name1": "Sylas",
         "title1": "the Unshackled",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Assassin",
         "skinCount": 10,
         "image": {
@@ -10658,7 +10888,9 @@
         "id1": "Syndra",
         "name1": "Syndra",
         "title1": "the Dark Sovereign",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 14,
         "image": {
@@ -10693,7 +10925,7 @@
         "resource1": "Mana",
         "release_date": "2012-09-13",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -10750,7 +10982,9 @@
         "id1": "TahmKench",
         "name1": "Tahm Kench",
         "title1": "The River King",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Support",
         "skinCount": 7,
         "image": {
@@ -10844,7 +11078,9 @@
         "id1": "Taliyah",
         "name1": "Taliyah",
         "title1": "the Stoneweaver",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 7,
         "image": {
@@ -10880,7 +11116,7 @@
         "resource1": "Mana",
         "release_date": "2016-05-18",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -10936,7 +11172,9 @@
         "id1": "Talon",
         "name1": "Talon",
         "title1": "the Blade's Shadow",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin",
         "skinCount": 13,
         "image": {
@@ -11026,7 +11264,9 @@
         "id1": "Taric",
         "name1": "Taric",
         "title1": "the Shield of Valoran",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Tank",
         "skinCount": 8,
         "image": {
@@ -11118,7 +11358,9 @@
         "id1": "Teemo",
         "name1": "Teemo",
         "title1": "the Swift Scout",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Mage",
         "skinCount": 16,
         "image": {
@@ -11152,7 +11394,7 @@
         "resource1": "Mana",
         "release_date": "2009-02-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             1350,
@@ -11208,7 +11450,9 @@
         "id1": "Thresh",
         "name1": "Thresh",
         "title1": "the Chain Warden",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Tank",
         "skinCount": 17,
         "image": {
@@ -11242,7 +11486,7 @@
         "resource1": "Mana",
         "release_date": "2013-01-23",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -11298,7 +11542,9 @@
         "id1": "Tristana",
         "name1": "Tristana",
         "title1": "the Yordle Gunner",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Assassin",
         "skinCount": 17,
         "image": {
@@ -11332,7 +11578,7 @@
         "resource1": "Mana",
         "release_date": "2009-02-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             1350,
@@ -11388,7 +11634,9 @@
         "id1": "Trundle",
         "name1": "Trundle",
         "title1": "the Troll King",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 9,
         "image": {
@@ -11481,7 +11729,9 @@
         "id1": "Tryndamere",
         "name1": "Tryndamere",
         "title1": "the Barbarian King",
-        "resource": "Fury",
+        "resource": [
+            "Fury"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 14,
         "image": {
@@ -11572,7 +11822,9 @@
         "id1": "TwistedFate",
         "name1": "Twisted Fate",
         "title1": "the Card Master",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Marksman",
         "skinCount": 17,
         "image": {
@@ -11607,7 +11859,7 @@
         "resource1": "Mana",
         "release_date": "2009-02-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             1350,
@@ -11664,7 +11916,9 @@
         "id1": "Twitch",
         "name1": "Twitch",
         "title1": "the Plague Rat",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Assassin",
         "skinCount": 15,
         "image": {
@@ -11699,7 +11953,7 @@
         "resource1": "Mana",
         "release_date": "2009-05-01",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -11757,7 +12011,9 @@
         "id1": "Udyr",
         "name1": "Udyr",
         "title1": "the Spirit Walker",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 7,
         "image": {
@@ -11853,7 +12109,9 @@
         "id1": "Urgot",
         "name1": "Urgot",
         "title1": "the Dreadnought",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 8,
         "image": {
@@ -11890,7 +12148,7 @@
         "resource1": "Mana",
         "release_date": "2010-08-24",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -11948,7 +12206,9 @@
         "id1": "Varus",
         "name1": "Varus",
         "title1": "the Arrow of Retribution",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Mage",
         "skinCount": 16,
         "image": {
@@ -11986,7 +12246,7 @@
         "resource1": "Mana",
         "release_date": "2012-05-08",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -12044,7 +12304,9 @@
         "id1": "Vayne",
         "name1": "Vayne",
         "title1": "the Night Hunter",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Assassin",
         "skinCount": 19,
         "image": {
@@ -12079,7 +12341,7 @@
         "resource1": "Mana",
         "release_date": "2011-05-10",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -12134,7 +12396,9 @@
         "id1": "Veigar",
         "name1": "Veigar",
         "title1": "the Tiny Master of Evil",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 16,
         "image": {
@@ -12169,7 +12433,7 @@
         "resource1": "Mana",
         "release_date": "2009-07-24",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             1350,
@@ -12224,7 +12488,9 @@
         "id1": "Velkoz",
         "name1": "Vel'Koz",
         "title1": "the Eye of the Void",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 7,
         "image": {
@@ -12259,7 +12525,7 @@
         "resource1": "Mana",
         "release_date": "2014-02-27",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -12315,7 +12581,9 @@
         "id1": "Vi",
         "name1": "Vi",
         "title1": "the Piltover Enforcer",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 14,
         "image": {
@@ -12405,7 +12673,9 @@
         "id1": "Viktor",
         "name1": "Viktor",
         "title1": "the Herald of the Arcane",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 9,
         "image": {
@@ -12441,7 +12711,7 @@
         "resource1": "Mana",
         "release_date": "2011-12-29",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -12497,7 +12767,9 @@
         "id1": "Vladimir",
         "name1": "Vladimir",
         "title1": "the Crimson Reaper",
-        "resource": "Crimson Rush",
+        "resource": [
+            "Crimson Rush"
+        ],
         "genre": "Mage,Fighter",
         "skinCount": 14,
         "image": {
@@ -12534,7 +12806,7 @@
         "resource1": "Bloodthirst",
         "release_date": "2010-07-27",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             3150,
@@ -12591,7 +12863,9 @@
         "id1": "Volibear",
         "name1": "Volibear",
         "title1": "the Relentless Storm",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 11,
         "image": {
@@ -12683,7 +12957,9 @@
         "id1": "Warwick",
         "name1": "Warwick",
         "title1": "the Uncaged Wrath of Zaun",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 16,
         "image": {
@@ -12777,7 +13053,9 @@
         "id1": "Xayah",
         "name1": "Xayah",
         "title1": "the Rebel",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman",
         "skinCount": 13,
         "image": {
@@ -12811,7 +13089,7 @@
         "resource1": "Mana",
         "release_date": "2017-04-19",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -12867,7 +13145,9 @@
         "id1": "Xerath",
         "name1": "Xerath",
         "title1": "the Magus Ascendant",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 9,
         "image": {
@@ -12902,7 +13182,7 @@
         "resource1": "Mana",
         "release_date": "2011-10-05",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -12958,7 +13238,9 @@
         "id1": "XinZhao",
         "name1": "Xin Zhao",
         "title1": "the Seneschal of Demacia",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 12,
         "image": {
@@ -13050,7 +13332,9 @@
         "id1": "Yasuo",
         "name1": "Yasuo",
         "title1": "the Unforgiven",
-        "resource": "Flow",
+        "resource": [
+            "Flow"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 18,
         "image": {
@@ -13142,7 +13426,9 @@
         "id1": "Yone",
         "name1": "Yone",
         "title1": "the Unforgotten",
-        "resource": "Flow",
+        "resource": [
+            "Flow"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 12,
         "image": {
@@ -13235,7 +13521,9 @@
         "id1": "Yorick",
         "name1": "Yorick",
         "title1": "Shepherd of Souls",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Tank",
         "skinCount": 10,
         "image": {
@@ -13327,7 +13615,9 @@
         "id1": "Yuumi",
         "name1": "Yuumi",
         "title1": "the Magical Cat",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 10,
         "image": {
@@ -13362,7 +13652,7 @@
         "resource1": "Mana",
         "release_date": "2019-05-14",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -13419,7 +13709,9 @@
         "id1": "Zac",
         "name1": "Zac",
         "title1": "the Secret Weapon",
-        "resource": "None",
+        "resource": [
+            "None"
+        ],
         "genre": "Tank,Fighter",
         "skinCount": 7,
         "image": {
@@ -13508,7 +13800,9 @@
         "id1": "Zed",
         "name1": "Zed",
         "title1": "the Master of Shadows",
-        "resource": "Energy",
+        "resource": [
+            "Energy"
+        ],
         "genre": "Assassin",
         "skinCount": 15,
         "image": {
@@ -13599,7 +13893,9 @@
         "id1": "Ziggs",
         "name1": "Ziggs",
         "title1": "the Hexplosives Expert",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 12,
         "image": {
@@ -13634,7 +13930,7 @@
         "resource1": "Mana",
         "release_date": "2012-02-01",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -13690,7 +13986,9 @@
         "id1": "Zilean",
         "name1": "Zilean",
         "title1": "the Chronokeeper",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 9,
         "image": {
@@ -13727,7 +14025,7 @@
         "resource1": "Mana",
         "release_date": "2009-04-18",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             1350,
@@ -13784,7 +14082,9 @@
         "id1": "Zoe",
         "name1": "Zoe",
         "title1": "the Aspect of Twilight",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 10,
         "image": {
@@ -13819,7 +14119,7 @@
         "resource1": "Mana",
         "release_date": "2017-11-21",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -13909,7 +14209,7 @@
         "resource1": "Mana",
         "release_date": "2012-07-24",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             4800,
@@ -13928,7 +14228,9 @@
         "id": "Akshan",
         "name": "Akshan",
         "title": "the Rogue Sentinel",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Assassin",
         "skinCount": 4,
         "image": {
@@ -13963,7 +14265,7 @@
         "resource1": "Mana",
         "release_date": "2021-07-22",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -13982,7 +14284,9 @@
         "id": "Ambessa",
         "name": "Ambessa",
         "title": "Matriarch of War",
-        "resource": "Energy",
+        "resource": [
+            "Energy"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 2,
         "image": {
@@ -14000,7 +14304,9 @@
         "region": "noxus",
         "lane": "mid",
         "positions": "mid",
-        "range_type": "close",
+        "range_type": [
+            "Melee"
+        ],
         "regions": "noxus",
         "release_date": 2024,
         "species": [
@@ -14011,7 +14317,9 @@
         "id": "Aurora",
         "name": "Aurora",
         "title": "the Witch Between Worlds",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Assassin",
         "skinCount": 3,
         "image": {
@@ -14029,7 +14337,9 @@
         "region": "freljord",
         "lane": "top,mid",
         "positions": "top,mid",
-        "range_type": "range",
+        "range_type": [
+            "range"
+        ],
         "regions": "freljord",
         "release_date": 2024,
         "species": [
@@ -14040,7 +14350,9 @@
         "id": "Belveth",
         "name": "Bel'Veth",
         "title": "the Empress of the Void",
-        "resource": "Manaless",
+        "resource": [
+            "None"
+        ],
         "genre": "Fighter",
         "skinCount": 4,
         "image": {
@@ -14081,7 +14393,9 @@
         "id": "Briar",
         "name": "Briar",
         "title": "the Restrained Hunger",
-        "resource": "Fury",
+        "resource": [
+            "Fury"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 4,
         "image": {
@@ -14099,7 +14413,9 @@
         "region": "noxus",
         "lane": "jungle",
         "positions": "jungle",
-        "range_type": "close",
+        "range_type": [
+            "Melee"
+        ],
         "regions": "noxus",
         "release_date": 2023,
         "species": [
@@ -14110,7 +14426,9 @@
         "id": "Gwen",
         "name": "Gwen",
         "title": "The Hallowed Seamstress",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter",
         "skinCount": 6,
         "image": {
@@ -14165,7 +14483,9 @@
         "id": "Hwei",
         "name": "Hwei",
         "title": "the Visionary",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 3,
         "image": {
@@ -14183,7 +14503,9 @@
         "region": "ionia",
         "lane": "mid,support",
         "positions": "mid,support",
-        "range_type": "range",
+        "range_type": [
+            "range"
+        ],
         "regions": "ionia",
         "release_date": 2023,
         "species": [
@@ -14194,7 +14516,9 @@
         "id": "KSante",
         "name": "K'Sante",
         "title": "the Pride of Nazumah",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Fighter",
         "skinCount": 4,
         "image": {
@@ -14235,7 +14559,9 @@
         "id": "Mel",
         "name": "Mel",
         "title": "the Soul's Reflection",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage,Support",
         "skinCount": 3,
         "image": {
@@ -14253,7 +14579,9 @@
         "region": "noxus",
         "lane": "mid",
         "positions": "mid",
-        "range_type": "range",
+        "range_type": [
+            "range"
+        ],
         "regions": "noxus",
         "release_date": 2025,
         "species": [
@@ -14264,7 +14592,9 @@
         "id": "Milio",
         "name": "Milio",
         "title": "The Gentle Flame",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 4,
         "image": {
@@ -14282,7 +14612,9 @@
         "region": "ixtal",
         "lane": "support",
         "positions": "support",
-        "range_type": "range",
+        "range_type": [
+            "range"
+        ],
         "regions": "ixtal",
         "release_date": 2023,
         "species": [
@@ -14293,7 +14625,9 @@
         "id": "Naafiri",
         "name": "Naafiri",
         "title": "the Hound of a Hundred Bites",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Assassin,Fighter",
         "skinCount": 4,
         "image": {
@@ -14311,7 +14645,9 @@
         "region": "shurima",
         "lane": "mid",
         "positions": "mid",
-        "range_type": "close",
+        "range_type": [
+            "Melee"
+        ],
         "regions": "shurima",
         "release_date": 2023,
         "species": [
@@ -14322,7 +14658,9 @@
         "id": "Nilah",
         "name": "Nilah",
         "title": "the Joy Unbound",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 4,
         "image": {
@@ -14365,7 +14703,9 @@
         "id": "Rell",
         "name": "Rell",
         "title": "the Iron Maiden",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Tank,Support",
         "skinCount": 5,
         "image": {
@@ -14423,7 +14763,9 @@
         "id": "Renata",
         "name": "Renata Glasc",
         "title": "the Chem-Baroness",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Support,Mage",
         "skinCount": 6,
         "image": {
@@ -14463,7 +14805,7 @@
         "resource1": "Mana",
         "release_date": "2022-02-17",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -14478,7 +14820,9 @@
         "id": "Smolder",
         "name": "Smolder",
         "title": "the Fiery Fledgling",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman,Mage",
         "skinCount": 3,
         "image": {
@@ -14496,7 +14840,9 @@
         "region": "runeterra",
         "lane": "bottom",
         "positions": "bottom",
-        "range_type": "range",
+        "range_type": [
+            "range"
+        ],
         "regions": "runeterra",
         "release_date": 2024,
         "species": [
@@ -14507,7 +14853,9 @@
         "id": "Vex",
         "name": "Vex",
         "title": "the Gloomist",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Mage",
         "skinCount": 4,
         "image": {
@@ -14542,7 +14890,7 @@
         "resource1": "Mana",
         "release_date": "2021-09-23",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -14561,7 +14909,9 @@
         "id": "Viego",
         "name": "Viego",
         "title": "The Ruined King",
-        "resource": "None",
+        "resource": [
+            "None"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 8,
         "image": {
@@ -14615,7 +14965,9 @@
         "id": "Yunara",
         "name": "Yunara",
         "title": "the Unbroken Faith",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman",
         "skinCount": 2,
         "image": {
@@ -14630,7 +14982,9 @@
         "gender": "Female",
         "attackType": "range",
         "region": "ionia",
-        "range_type": "range",
+        "range_type": [
+            "range"
+        ],
         "regions": "ionia",
         "positions": [
             "Bottom"
@@ -14645,7 +14999,9 @@
         "id": "Zaahen",
         "name": "Zaahen",
         "title": "The Unsundered",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Fighter,Assassin",
         "skinCount": 2,
         "image": {
@@ -14660,7 +15016,9 @@
         "gender": "male",
         "attackType": "close",
         "region": "runeterra",
-        "range_type": "close",
+        "range_type": [
+            "Melee"
+        ],
         "regions": "runeterra",
         "positions": [
             "Top",
@@ -14675,7 +15033,9 @@
         "id": "Zeri",
         "name": "Zeri",
         "title": "The Spark of Zaun",
-        "resource": "Mana",
+        "resource": [
+            "Mana"
+        ],
         "genre": "Marksman",
         "skinCount": 7,
         "image": {
@@ -14710,7 +15070,7 @@
         "resource1": "Mana",
         "release_date": "2022-01-20",
         "range_type": [
-            "Ranged"
+            "Range"
         ],
         "store_price": [
             6300,
@@ -14745,7 +15105,9 @@
             "Support",
             "Bottom"
         ],
-        "resource": "Unknown",
+        "resource": [
+            "Unknown"
+        ],
         "release_date": "2010-04-01",
         "range_type": [
             "Melee"

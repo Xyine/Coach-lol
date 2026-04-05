@@ -8,5 +8,10 @@
     "Naafiri": {"species": ["Darkin, dog"]},
     "Smolder": {"species": ["Dragon"]},
     "Yunara": {"positions": ["Bottom"], "gender": "Female", "species": ["Human", "Spiritualist"], "release_date": "2025-07-16"},
-    "Zaahen": {"positions": ["Top", "Jungle"], "species": ["Darkin"], "release_date": "2025-11-19"}
+    "Zaahen": {"positions": ["Top", "Jungle"], "species": ["Darkin"], "release_date": "2025-11-19"},
+    "Nocturne": {"gender": "Male"},
+    "Cho'Gath": {"gender": "Male"},
+    "Jax": {"resource": "Mana"},
+    "Zyra": {"resource": "Mana"},
+    "Urf": {}
 }
