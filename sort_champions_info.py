@@ -1,6 +1,9 @@
 import json
 import os
 import time
+from typing import Annotated
+
+from pydantic import AfterValidator, BaseModel, ValidationError
 
 
 config_file = 'config.json'
@@ -166,6 +169,38 @@ def clean_dataset(input_file, output_file):
         json.dump(champs, f, indent=4)
 
 
+def valid_name(value):
+    if not value in champion_name_list:
+        raise ValueError(f'{value} is not a known champ name') 
+    return value
+
+
+class Champion(BaseModel):
+    name: Annotated[str, AfterValidator(valid_name)]
+    resource: str | None = None
+    gender: str | None = None
+    species: list[str] | None = None
+    regions: list[str] | None = None
+    positions: list[str] | None = None
+    release_date: str | None = None
+    range_type: list[str] | None = None
+
+
+def create_dataset(file):
+    with open(file) as f:
+        champions_list = json.load(f)
+    
+    new_dataset = []
+
+    for champion in champions_list:
+        try:
+            new_dataset.append(Champion.model_validate(champion))
+        except ValidationError as e:
+            print(e)
+
+    return new_dataset
+
+
 def patch_dataset(dataset, patch_dataset):
     with open(dataset) as f:
         champs = json.load(f)
@@ -214,6 +249,7 @@ def create_common_dataset(files, output_file):
 #========================================================
 # USE
 
+# print(create_dataset('champs_data/champs_data_3.json'))
 # print(create_common_dataset(['champs_data/champs_data_1.json', 'champs_data/champs_data_2.json', 'champs_data/champs_data_3.json'], 'champs_data/find_champs.json'))
 # print(validate_data('champs_data/find_champs.json'))
 
