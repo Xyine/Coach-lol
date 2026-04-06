@@ -1,7 +1,7 @@
 import json
 import os
 import time
-from typing import Annotated
+from typing import Annotated, Any
 
 from pydantic import AfterValidator, BaseModel, ValidationError
 
@@ -186,19 +186,20 @@ class Champion(BaseModel):
     range_type: list[str] | None = None
 
 
-def create_dataset(file):
-    with open(file) as f:
+def create_dataset(input_file: str, output_file: str):
+    with open(input_file) as f:
         champions_list = json.load(f)
     
-    new_dataset = []
+    new_dataset:list[dict[str, Any]] = []
 
     for champion in champions_list:
         try:
-            new_dataset.append(Champion.model_validate(champion))
+            new_dataset.append(Champion.model_validate(champion).model_dump())
         except ValidationError as e:
             print(e)
-
-    return new_dataset
+    
+    with open(output_file, 'w') as f:
+        json.dump(new_dataset, f, indent=4)
 
 
 def patch_dataset(dataset, patch_dataset):

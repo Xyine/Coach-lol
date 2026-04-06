@@ -1,10 +1,28 @@
 [
     {
-        "name": "Aatrox",
-        "resource": [
-            "Blood Well"
+        "name": "Lux",
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn"
         ],
-        "gender": "male",
+        "regions": [
+            "Demacia"
+        ],
+        "positions": [
+            "Middle",
+            "Support"
+        ],
+        "release_date": "2010-10-19",
+        "range_type": [
+            "Ranged"
+        ]
+    },
+    {
+        "name": "Aatrox",
+        "resource": "Manaless",
+        "gender": "Male",
         "species": [
             "Darkin"
         ],
@@ -22,10 +40,8 @@
     },
     {
         "name": "Ahri",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Vastayan"
         ],
@@ -37,15 +53,13 @@
         ],
         "release_date": "2011-12-14",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Akali",
-        "resource": [
-            "Energy"
-        ],
-        "gender": "female",
+        "resource": "Energy",
+        "gender": "Female",
         "species": [
             "Human"
         ],
@@ -62,11 +76,28 @@
         ]
     },
     {
-        "name": "Alistar",
-        "resource": [
-            "Mana"
+        "name": "Akshan",
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
         ],
-        "gender": "male",
+        "regions": [
+            "Shurima"
+        ],
+        "positions": [
+            "Top",
+            "Middle"
+        ],
+        "release_date": "2021-07-22",
+        "range_type": [
+            "Ranged"
+        ]
+    },
+    {
+        "name": "Alistar",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Minotaur"
         ],
@@ -83,10 +114,8 @@
     },
     {
         "name": "Amumu",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Undead",
             "Yordle"
@@ -105,10 +134,8 @@
     },
     {
         "name": "Anivia",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Spirit",
             "God"
@@ -121,15 +148,13 @@
         ],
         "release_date": "2009-07-10",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Annie",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magicborn"
@@ -143,15 +168,13 @@
         ],
         "release_date": "2009-02-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Aphelios",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Spiritualist"
@@ -164,15 +187,13 @@
         ],
         "release_date": "2019-12-11",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Ashe",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Iceborn"
@@ -186,15 +207,13 @@
         ],
         "release_date": "2009-02-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Aurelion Sol",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Celestial",
             "Dragon"
@@ -208,15 +227,13 @@
         ],
         "release_date": "2016-03-24",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Azir",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "God-Warrior"
         ],
@@ -228,15 +245,13 @@
         ],
         "release_date": "2014-09-16",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Bard",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Celestial"
         ],
@@ -248,15 +263,13 @@
         ],
         "release_date": "2015-03-12",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Blitzcrank",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Other",
         "species": [
             "Golem"
         ],
@@ -273,10 +286,8 @@
     },
     {
         "name": "Brand",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Magically Altered"
@@ -290,15 +301,13 @@
         ],
         "release_date": "2011-04-12",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Braum",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Iceborn"
@@ -316,10 +325,8 @@
     },
     {
         "name": "Caitlyn",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human"
         ],
@@ -331,15 +338,13 @@
         ],
         "release_date": "2011-01-04",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Camille",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Cyborg"
@@ -357,10 +362,8 @@
     },
     {
         "name": "Cassiopeia",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magically Altered"
@@ -374,14 +377,12 @@
         ],
         "release_date": "2010-12-14",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Cho'Gath",
-        "resource": [
-            "Mana"
-        ],
+        "resource": "Mana",
         "gender": "Male",
         "species": [
             "Void-Being"
@@ -399,10 +400,8 @@
     },
     {
         "name": "Corki",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Yordle"
         ],
@@ -415,15 +414,13 @@
         ],
         "release_date": "2009-09-19",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Darius",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human"
         ],
@@ -440,10 +437,8 @@
     },
     {
         "name": "Diana",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Aspect"
@@ -461,31 +456,9 @@
         ]
     },
     {
-        "name": "Draven",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
-        "species": [
-            "Human"
-        ],
-        "regions": [
-            "Noxus"
-        ],
-        "positions": [
-            "Bottom"
-        ],
-        "release_date": "2012-06-06",
-        "range_type": [
-            "Range"
-        ]
-    },
-    {
         "name": "Dr. Mundo",
-        "resource": [
-            "None"
-        ],
-        "gender": "male",
+        "resource": "Health costs",
+        "gender": "Male",
         "species": [
             "Human",
             "Chemically Altered"
@@ -502,11 +475,27 @@
         ]
     },
     {
-        "name": "Ekko",
-        "resource": [
-            "Mana"
+        "name": "Draven",
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
         ],
-        "gender": "male",
+        "regions": [
+            "Noxus"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "release_date": "2012-06-06",
+        "range_type": [
+            "Ranged"
+        ]
+    },
+    {
+        "name": "Ekko",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human"
         ],
@@ -524,10 +513,8 @@
     },
     {
         "name": "Elise",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magically Altered"
@@ -547,10 +534,8 @@
     },
     {
         "name": "Evelynn",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Demon",
             "Spirit"
@@ -568,10 +553,8 @@
     },
     {
         "name": "Ezreal",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Magicborn"
@@ -584,15 +567,13 @@
         ],
         "release_date": "2010-03-16",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Fiddlesticks",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Other",
         "species": [
             "Demon",
             "Spirit"
@@ -605,15 +586,13 @@
         ],
         "release_date": "2009-02-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Fiora",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human"
         ],
@@ -630,10 +609,8 @@
     },
     {
         "name": "Fizz",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Yordle"
         ],
@@ -650,10 +627,8 @@
     },
     {
         "name": "Galio",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Golem"
         ],
@@ -671,10 +646,8 @@
     },
     {
         "name": "Gangplank",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human"
         ],
@@ -691,10 +664,8 @@
     },
     {
         "name": "Garen",
-        "resource": [
-            "None"
-        ],
-        "gender": "male",
+        "resource": "Manaless",
+        "gender": "Male",
         "species": [
             "Human"
         ],
@@ -711,10 +682,8 @@
     },
     {
         "name": "Gnar",
-        "resource": [
-            "Rage"
-        ],
-        "gender": "male",
+        "resource": "Rage",
+        "gender": "Male",
         "species": [
             "Yordle"
         ],
@@ -732,10 +701,8 @@
     },
     {
         "name": "Gragas",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human"
         ],
@@ -753,10 +720,8 @@
     },
     {
         "name": "Graves",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human"
         ],
@@ -768,15 +733,33 @@
         ],
         "release_date": "2011-10-19",
         "range_type": [
-            "Range"
+            "Ranged"
+        ]
+    },
+    {
+        "name": "Gwen",
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "regions": [
+            "Shadow Isles",
+            "Camavor"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "release_date": "2021-04-15",
+        "range_type": [
+            "Melee"
         ]
     },
     {
         "name": "Hecarim",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Undead"
         ],
@@ -794,10 +777,8 @@
     },
     {
         "name": "Heimerdinger",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Yordle"
         ],
@@ -810,15 +791,13 @@
         ],
         "release_date": "2009-10-10",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Illaoi",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Spiritualist"
@@ -836,10 +815,8 @@
     },
     {
         "name": "Irelia",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Spiritualist"
@@ -858,10 +835,8 @@
     },
     {
         "name": "Ivern",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Magically Altered"
@@ -875,15 +850,13 @@
         ],
         "release_date": "2016-10-05",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Janna",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Spirit",
             "God"
@@ -897,15 +870,13 @@
         ],
         "release_date": "2009-09-02",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Jarvan IV",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human"
         ],
@@ -923,7 +894,7 @@
     {
         "name": "Jax",
         "resource": "Mana",
-        "gender": "male",
+        "gender": "Male",
         "species": [
             "Unknown"
         ],
@@ -943,10 +914,8 @@
     },
     {
         "name": "Jayce",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human"
         ],
@@ -965,10 +934,8 @@
     },
     {
         "name": "Jhin",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Spiritualist"
@@ -981,15 +948,13 @@
         ],
         "release_date": "2016-02-01",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Jinx",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Chemically Altered"
@@ -1002,15 +967,13 @@
         ],
         "release_date": "2013-10-10",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Kai'Sa",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Void-Being"
@@ -1024,15 +987,13 @@
         ],
         "release_date": "2018-03-07",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Kalista",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Undead"
         ],
@@ -1045,15 +1006,13 @@
         ],
         "release_date": "2014-11-20",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Karma",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Spiritualist"
@@ -1066,15 +1025,13 @@
         ],
         "release_date": "2011-02-01",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Karthus",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Undead"
         ],
@@ -1087,15 +1044,13 @@
         ],
         "release_date": "2009-06-12",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Kassadin",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Void-Being"
@@ -1114,10 +1069,8 @@
     },
     {
         "name": "Katarina",
-        "resource": [
-            "None"
-        ],
-        "gender": "female",
+        "resource": "Manaless",
+        "gender": "Female",
         "species": [
             "Human"
         ],
@@ -1134,10 +1087,8 @@
     },
     {
         "name": "Kayle",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magically Altered",
@@ -1158,10 +1109,8 @@
     },
     {
         "name": "Kayn",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Darkin",
             "Human",
@@ -1183,10 +1132,8 @@
     },
     {
         "name": "Kennen",
-        "resource": [
-            "Energy"
-        ],
-        "gender": "male",
+        "resource": "Energy",
+        "gender": "Male",
         "species": [
             "Yordle"
         ],
@@ -1198,15 +1145,13 @@
         ],
         "release_date": "2010-04-08",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Kha'Zix",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Void-Being"
         ],
@@ -1223,10 +1168,8 @@
     },
     {
         "name": "Kindred",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Other",
         "species": [
             "Spirit",
             "God"
@@ -1239,15 +1182,13 @@
         ],
         "release_date": "2015-10-14",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Kled",
-        "resource": [
-            "Courage"
-        ],
-        "gender": "male",
+        "resource": "Courage",
+        "gender": "Male",
         "species": [
             "Yordle"
         ],
@@ -1264,10 +1205,8 @@
     },
     {
         "name": "Kog'Maw",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Void-Being"
         ],
@@ -1279,15 +1218,13 @@
         ],
         "release_date": "2010-06-24",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "LeBlanc",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magically Altered"
@@ -1300,15 +1237,13 @@
         ],
         "release_date": "2010-11-02",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Lee Sin",
-        "resource": [
-            "Energy"
-        ],
-        "gender": "male",
+        "resource": "Energy",
+        "gender": "Male",
         "species": [
             "Human",
             "Spiritualist"
@@ -1326,10 +1261,8 @@
     },
     {
         "name": "Leona",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Aspect"
@@ -1347,10 +1280,8 @@
     },
     {
         "name": "Lillia",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Spirit"
         ],
@@ -1368,10 +1299,8 @@
     },
     {
         "name": "Lissandra",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Iceborn"
@@ -1384,15 +1313,13 @@
         ],
         "release_date": "2013-04-30",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Lucian",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human"
         ],
@@ -1405,15 +1332,13 @@
         ],
         "release_date": "2013-08-22",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Lulu",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Yordle"
         ],
@@ -1425,37 +1350,13 @@
         ],
         "release_date": "2012-03-20",
         "range_type": [
-            "Range"
-        ]
-    },
-    {
-        "name": "Lux",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
-        "species": [
-            "Human",
-            "Magicborn"
-        ],
-        "regions": [
-            "Demacia"
-        ],
-        "positions": [
-            "Middle",
-            "Support"
-        ],
-        "release_date": "2010-10-19",
-        "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Malphite",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Golem"
         ],
@@ -1473,10 +1374,8 @@
     },
     {
         "name": "Malzahar",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Void-Being"
@@ -1490,15 +1389,13 @@
         ],
         "release_date": "2010-06-01",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Maokai",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Spirit"
         ],
@@ -1516,10 +1413,8 @@
     },
     {
         "name": "Master Yi",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Spiritualist"
@@ -1537,10 +1432,8 @@
     },
     {
         "name": "Miss Fortune",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human"
         ],
@@ -1552,36 +1445,13 @@
         ],
         "release_date": "2010-09-08",
         "range_type": [
-            "Range"
-        ]
-    },
-    {
-        "name": "Wukong",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
-        "species": [
-            "Vastayan"
-        ],
-        "regions": [
-            "Ionia"
-        ],
-        "positions": [
-            "Top",
-            "Jungle"
-        ],
-        "release_date": "2011-07-26",
-        "range_type": [
-            "Melee"
+            "Ranged"
         ]
     },
     {
         "name": "Mordekaiser",
-        "resource": [
-            "Shield"
-        ],
-        "gender": "male",
+        "resource": "Shield",
+        "gender": "Male",
         "species": [
             "Revenant"
         ],
@@ -1598,10 +1468,8 @@
     },
     {
         "name": "Morgana",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magically Altered",
@@ -1616,15 +1484,13 @@
         ],
         "release_date": "2009-02-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Nami",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Vastayan"
         ],
@@ -1636,15 +1502,13 @@
         ],
         "release_date": "2012-12-07",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Nasus",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "God-Warrior"
         ],
@@ -1661,10 +1525,8 @@
     },
     {
         "name": "Nautilus",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Revenant"
         ],
@@ -1681,10 +1543,8 @@
     },
     {
         "name": "Neeko",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Vastayan"
         ],
@@ -1697,15 +1557,13 @@
         ],
         "release_date": "2018-12-05",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Nidalee",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Spiritualist"
@@ -1724,9 +1582,7 @@
     },
     {
         "name": "Nocturne",
-        "resource": [
-            "Mana"
-        ],
+        "resource": "Mana",
         "gender": "Male",
         "species": [
             "Demon",
@@ -1745,10 +1601,8 @@
     },
     {
         "name": "Nunu & Willump",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Yeti"
@@ -1766,10 +1620,8 @@
     },
     {
         "name": "Olaf",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Iceborn"
@@ -1788,10 +1640,8 @@
     },
     {
         "name": "Orianna",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Golem"
         ],
@@ -1803,15 +1653,13 @@
         ],
         "release_date": "2011-06-01",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Ornn",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Spirit",
             "God"
@@ -1829,10 +1677,8 @@
     },
     {
         "name": "Pantheon",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Aspect"
@@ -1852,10 +1698,8 @@
     },
     {
         "name": "Poppy",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Yordle"
         ],
@@ -1873,10 +1717,8 @@
     },
     {
         "name": "Pyke",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Revenant"
         ],
@@ -1893,10 +1735,8 @@
     },
     {
         "name": "Qiyana",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magicborn"
@@ -1915,10 +1755,8 @@
     },
     {
         "name": "Quinn",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human"
         ],
@@ -1930,15 +1768,13 @@
         ],
         "release_date": "2013-03-01",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Rakan",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Vastayan"
         ],
@@ -1955,10 +1791,8 @@
     },
     {
         "name": "Rammus",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "God-Warrior"
         ],
@@ -1975,10 +1809,8 @@
     },
     {
         "name": "Rek'Sai",
-        "resource": [
-            "Rage"
-        ],
-        "gender": "female",
+        "resource": "Rage",
+        "gender": "Female",
         "species": [
             "Void-Being"
         ],
@@ -1995,11 +1827,29 @@
         ]
     },
     {
-        "name": "Renekton",
-        "resource": [
-            "Fury"
+        "name": "Rell",
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn",
+            "Magically Altered"
         ],
-        "gender": "male",
+        "regions": [
+            "Noxus"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "release_date": "2020-12-10",
+        "range_type": [
+            "Melee"
+        ]
+    },
+    {
+        "name": "Renekton",
+        "resource": "Fury",
+        "gender": "Male",
         "species": [
             "God-Warrior"
         ],
@@ -2016,10 +1866,8 @@
     },
     {
         "name": "Rengar",
-        "resource": [
-            "Ferocity"
-        ],
-        "gender": "male",
+        "resource": "Ferocity",
+        "gender": "Male",
         "species": [
             "Vastayan"
         ],
@@ -2038,10 +1886,8 @@
     },
     {
         "name": "Riven",
-        "resource": [
-            "None"
-        ],
-        "gender": "female",
+        "resource": "Manaless",
+        "gender": "Female",
         "species": [
             "Human"
         ],
@@ -2059,10 +1905,8 @@
     },
     {
         "name": "Rumble",
-        "resource": [
-            "Heat"
-        ],
-        "gender": "male",
+        "resource": "Heat",
+        "gender": "Male",
         "species": [
             "Yordle"
         ],
@@ -2080,10 +1924,8 @@
     },
     {
         "name": "Ryze",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Magically Altered"
@@ -2097,15 +1939,13 @@
         ],
         "release_date": "2009-02-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Samira",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human"
         ],
@@ -2118,15 +1958,13 @@
         ],
         "release_date": "2020-09-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Sejuani",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Iceborn"
@@ -2145,10 +1983,8 @@
     },
     {
         "name": "Senna",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Undead"
@@ -2161,15 +1997,13 @@
         ],
         "release_date": "2019-11-10",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Seraphine",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magicborn"
@@ -2183,15 +2017,13 @@
         ],
         "release_date": "2020-10-29",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Sett",
-        "resource": [
-            "Grit"
-        ],
-        "gender": "male",
+        "resource": "Grit",
+        "gender": "Male",
         "species": [
             "Human",
             "Vastayan"
@@ -2209,10 +2041,8 @@
     },
     {
         "name": "Shaco",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Spirit"
         ],
@@ -2229,10 +2059,8 @@
     },
     {
         "name": "Shen",
-        "resource": [
-            "Energy"
-        ],
-        "gender": "male",
+        "resource": "Energy",
+        "gender": "Male",
         "species": [
             "Human",
             "Spiritualist"
@@ -2250,10 +2078,8 @@
     },
     {
         "name": "Shyvana",
-        "resource": [
-            "Fury"
-        ],
-        "gender": "female",
+        "resource": "Fury",
+        "gender": "Female",
         "species": [
             "Dragon",
             "Magically Altered"
@@ -2271,10 +2097,8 @@
     },
     {
         "name": "Singed",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Chemically Altered"
@@ -2293,10 +2117,8 @@
     },
     {
         "name": "Sion",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Revenant"
         ],
@@ -2313,10 +2135,8 @@
     },
     {
         "name": "Sivir",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human"
         ],
@@ -2328,15 +2148,13 @@
         ],
         "release_date": "2009-02-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Skarner",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Brackern"
         ],
@@ -2353,10 +2171,8 @@
     },
     {
         "name": "Sona",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magicborn"
@@ -2370,15 +2186,13 @@
         ],
         "release_date": "2010-09-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Soraka",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Celestial"
         ],
@@ -2391,15 +2205,13 @@
         ],
         "release_date": "2009-02-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Swain",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Magically Altered"
@@ -2413,15 +2225,13 @@
         ],
         "release_date": "2010-10-05",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Sylas",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Magicborn"
@@ -2440,10 +2250,8 @@
     },
     {
         "name": "Syndra",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magicborn"
@@ -2456,15 +2264,13 @@
         ],
         "release_date": "2012-09-13",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Tahm Kench",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Demon",
             "Spirit"
@@ -2484,10 +2290,8 @@
     },
     {
         "name": "Taliyah",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magicborn"
@@ -2501,15 +2305,13 @@
         ],
         "release_date": "2016-05-18",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Talon",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human"
         ],
@@ -2527,10 +2329,8 @@
     },
     {
         "name": "Taric",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Aspect"
@@ -2549,10 +2349,8 @@
     },
     {
         "name": "Teemo",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Yordle"
         ],
@@ -2564,15 +2362,13 @@
         ],
         "release_date": "2009-02-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Thresh",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Undead"
         ],
@@ -2584,15 +2380,13 @@
         ],
         "release_date": "2013-01-23",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Tristana",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Yordle"
         ],
@@ -2604,15 +2398,13 @@
         ],
         "release_date": "2009-02-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Trundle",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Troll",
             "Iceborn"
@@ -2631,10 +2423,8 @@
     },
     {
         "name": "Tryndamere",
-        "resource": [
-            "Fury"
-        ],
-        "gender": "male",
+        "resource": "Fury",
+        "gender": "Male",
         "species": [
             "Human",
             "Magically Altered"
@@ -2652,10 +2442,8 @@
     },
     {
         "name": "Twisted Fate",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Magicborn"
@@ -2668,15 +2456,13 @@
         ],
         "release_date": "2009-02-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Twitch",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Rat",
             "Chemically Altered"
@@ -2689,15 +2475,13 @@
         ],
         "release_date": "2009-05-01",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Udyr",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Spiritualist"
@@ -2717,10 +2501,8 @@
     },
     {
         "name": "Urgot",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Chemically Altered",
@@ -2735,15 +2517,13 @@
         ],
         "release_date": "2010-08-24",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Varus",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Darkin",
             "Human"
@@ -2759,15 +2539,13 @@
         ],
         "release_date": "2012-05-08",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Vayne",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human"
         ],
@@ -2780,15 +2558,13 @@
         ],
         "release_date": "2011-05-10",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Veigar",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Yordle"
         ],
@@ -2801,15 +2577,13 @@
         ],
         "release_date": "2009-07-24",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Vel'Koz",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Void-Being"
         ],
@@ -2822,15 +2596,32 @@
         ],
         "release_date": "2014-02-27",
         "range_type": [
-            "Range"
+            "Ranged"
+        ]
+    },
+    {
+        "name": "Vex",
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Yordle"
+        ],
+        "regions": [
+            "Shadow Isles",
+            "Bandle City"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "release_date": "2021-09-23",
+        "range_type": [
+            "Ranged"
         ]
     },
     {
         "name": "Vi",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human"
         ],
@@ -2847,11 +2638,28 @@
         ]
     },
     {
-        "name": "Viktor",
-        "resource": [
-            "Mana"
+        "name": "Viego",
+        "resource": "Manaless",
+        "gender": "Male",
+        "species": [
+            "Undead"
         ],
-        "gender": "male",
+        "regions": [
+            "Shadow Isles",
+            "Camavor"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "release_date": "2021-01-21",
+        "range_type": [
+            "Melee"
+        ]
+    },
+    {
+        "name": "Viktor",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Cyborg"
@@ -2865,15 +2673,13 @@
         ],
         "release_date": "2011-12-29",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Vladimir",
-        "resource": [
-            "Crimson Rush"
-        ],
-        "gender": "male",
+        "resource": "Bloodthirst",
+        "gender": "Male",
         "species": [
             "Human",
             "Magically Altered"
@@ -2888,15 +2694,13 @@
         ],
         "release_date": "2010-07-27",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Volibear",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Spirit",
             "God"
@@ -2915,10 +2719,8 @@
     },
     {
         "name": "Warwick",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Chemically Altered",
@@ -2937,11 +2739,28 @@
         ]
     },
     {
-        "name": "Xayah",
-        "resource": [
-            "Mana"
+        "name": "Wukong",
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Vastayan"
         ],
-        "gender": "female",
+        "regions": [
+            "Ionia"
+        ],
+        "positions": [
+            "Top",
+            "Jungle"
+        ],
+        "release_date": "2011-07-26",
+        "range_type": [
+            "Melee"
+        ]
+    },
+    {
+        "name": "Xayah",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Vastayan"
         ],
@@ -2953,15 +2772,13 @@
         ],
         "release_date": "2017-04-19",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Xerath",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "God-Warrior"
         ],
@@ -2974,15 +2791,13 @@
         ],
         "release_date": "2011-10-05",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Xin Zhao",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human"
         ],
@@ -3001,10 +2816,8 @@
     },
     {
         "name": "Yasuo",
-        "resource": [
-            "Flow"
-        ],
-        "gender": "male",
+        "resource": "Flow",
+        "gender": "Male",
         "species": [
             "Human",
             "Magicborn"
@@ -3022,10 +2835,8 @@
     },
     {
         "name": "Yone",
-        "resource": [
-            "Flow"
-        ],
-        "gender": "male",
+        "resource": "Manaless",
+        "gender": "Male",
         "species": [
             "Human",
             "Magically Altered"
@@ -3044,10 +2855,8 @@
     },
     {
         "name": "Yorick",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Magically Altered"
@@ -3065,10 +2874,8 @@
     },
     {
         "name": "Yuumi",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Cat",
             "Magically Altered"
@@ -3081,15 +2888,13 @@
         ],
         "release_date": "2019-05-14",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Zac",
-        "resource": [
-            "None"
-        ],
-        "gender": "male",
+        "resource": "Health costs",
+        "gender": "Male",
         "species": [
             "Golem"
         ],
@@ -3106,10 +2911,8 @@
     },
     {
         "name": "Zed",
-        "resource": [
-            "Energy"
-        ],
-        "gender": "male",
+        "resource": "Energy",
+        "gender": "Male",
         "species": [
             "Human",
             "Magically Altered"
@@ -3126,11 +2929,28 @@
         ]
     },
     {
-        "name": "Ziggs",
-        "resource": [
-            "Mana"
+        "name": "Zeri",
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn"
         ],
-        "gender": "male",
+        "regions": [
+            "Zaun"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "release_date": "2022-01-20",
+        "range_type": [
+            "Ranged"
+        ]
+    },
+    {
+        "name": "Ziggs",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Yordle"
         ],
@@ -3143,15 +2963,13 @@
         ],
         "release_date": "2012-02-01",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Zilean",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "resource": "Mana",
+        "gender": "Male",
         "species": [
             "Human",
             "Magicborn"
@@ -3166,15 +2984,13 @@
         ],
         "release_date": "2009-04-18",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Zoe",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Aspect"
@@ -3187,13 +3003,13 @@
         ],
         "release_date": "2017-11-21",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
         "name": "Zyra",
         "resource": "Mana",
-        "gender": "female",
+        "gender": "Female",
         "species": [
             "Unknown"
         ],
@@ -3205,68 +3021,32 @@
         ],
         "release_date": "2012-07-24",
         "range_type": [
-            "Range"
+            "Ranged"
         ]
     },
     {
-        "name": "Akshan",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
+        "name": "Renata Glasc",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
-            "Human"
+            "Human",
+            "Chemically Altered"
         ],
         "regions": [
-            "Shurima"
+            "Zaun"
         ],
         "positions": [
-            "Top",
-            "Middle"
+            "Support"
         ],
-        "release_date": "2021-07-22",
+        "release_date": "2022-02-17",
         "range_type": [
-            "Range"
-        ]
-    },
-    {
-        "name": "Ambessa",
-        "resource": [
-            "Energy"
-        ],
-        "gender": "female",
-        "positions": "mid",
-        "range_type": [
-            "Melee"
-        ],
-        "regions": "noxus",
-        "release_date": 2024,
-        "species": [
-            "Human"
-        ]
-    },
-    {
-        "name": "Aurora",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
-        "positions": "top,mid",
-        "range_type": [
-            "range"
-        ],
-        "regions": "freljord",
-        "release_date": 2024,
-        "species": [
-            "Vastayan"
+            "Ranged"
         ]
     },
     {
         "name": "Bel'Veth",
-        "resource": [
-            "None"
-        ],
-        "gender": "female",
+        "resource": "Manaless",
+        "gender": "Female",
         "species": [
             "Void-Being"
         ],
@@ -3282,133 +3062,9 @@
         ]
     },
     {
-        "name": "Briar",
-        "resource": [
-            "Fury"
-        ],
-        "gender": "female",
-        "positions": "jungle",
-        "range_type": [
-            "Melee"
-        ],
-        "regions": "noxus",
-        "release_date": 2023,
-        "species": [
-            "Golem"
-        ]
-    },
-    {
-        "name": "Gwen",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
-        "species": [
-            "Human",
-            "Magically Altered"
-        ],
-        "regions": [
-            "Shadow Isles",
-            "Camavor"
-        ],
-        "positions": [
-            "Top"
-        ],
-        "release_date": "2021-04-15",
-        "range_type": [
-            "Melee"
-        ]
-    },
-    {
-        "name": "Hwei",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
-        "positions": "mid,support",
-        "range_type": [
-            "range"
-        ],
-        "regions": "ionia",
-        "release_date": 2023,
-        "species": [
-            "Human, Magicborn"
-        ]
-    },
-    {
-        "name": "K'Sante",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
-        "species": [
-            "Human"
-        ],
-        "regions": [
-            "Shurima"
-        ],
-        "positions": [
-            "Top"
-        ],
-        "release_date": "2022-11-02",
-        "range_type": [
-            "Melee"
-        ]
-    },
-    {
-        "name": "Mel",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
-        "positions": "mid",
-        "range_type": [
-            "range"
-        ],
-        "regions": "noxus",
-        "release_date": 2025,
-        "species": [
-            " Human, Magically Altered"
-        ]
-    },
-    {
-        "name": "Milio",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
-        "positions": "support",
-        "range_type": [
-            "range"
-        ],
-        "regions": "ixtal",
-        "release_date": 2023,
-        "species": [
-            "Human, Magicborn"
-        ]
-    },
-    {
-        "name": "Naafiri",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
-        "positions": "mid",
-        "range_type": [
-            "Melee"
-        ],
-        "regions": "shurima",
-        "release_date": 2023,
-        "species": [
-            "Darkin, dog"
-        ]
-    },
-    {
         "name": "Nilah",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
+        "resource": "Mana",
+        "gender": "Female",
         "species": [
             "Human",
             "Magically Altered"
@@ -3425,185 +3081,19 @@
         ]
     },
     {
-        "name": "Rell",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
-        "species": [
-            "Human",
-            "Magicborn",
-            "Magically Altered"
-        ],
-        "regions": [
-            "Noxus"
-        ],
-        "positions": [
-            "Support"
-        ],
-        "release_date": "2020-12-10",
-        "range_type": [
-            "Melee"
-        ]
-    },
-    {
-        "name": "Renata Glasc",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
-        "species": [
-            "Human",
-            "Chemically Altered"
-        ],
-        "regions": [
-            "Zaun"
-        ],
-        "positions": [
-            "Support"
-        ],
-        "release_date": "2022-02-17",
-        "range_type": [
-            "Range"
-        ]
-    },
-    {
-        "name": "Smolder",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
-        "positions": "bottom",
-        "range_type": [
-            "range"
-        ],
-        "regions": "runeterra",
-        "release_date": 2024,
-        "species": [
-            "Dragon"
-        ]
-    },
-    {
-        "name": "Vex",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
-        "species": [
-            "Yordle"
-        ],
-        "regions": [
-            "Shadow Isles",
-            "Bandle City"
-        ],
-        "positions": [
-            "Middle"
-        ],
-        "release_date": "2021-09-23",
-        "range_type": [
-            "Range"
-        ]
-    },
-    {
-        "name": "Viego",
-        "resource": [
-            "None"
-        ],
-        "gender": "male",
-        "species": [
-            "Undead"
-        ],
-        "regions": [
-            "Shadow Isles",
-            "Camavor"
-        ],
-        "positions": [
-            "Jungle"
-        ],
-        "release_date": "2021-01-21",
-        "range_type": [
-            "Melee"
-        ]
-    },
-    {
-        "name": "Yunara",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "Female",
-        "range_type": [
-            "range"
-        ],
-        "regions": "ionia",
-        "positions": [
-            "Bottom"
-        ],
-        "species": [
-            "Human",
-            "Spiritualist"
-        ],
-        "release_date": "2025-07-16"
-    },
-    {
-        "name": "Zaahen",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "male",
-        "range_type": [
-            "Melee"
-        ],
-        "regions": "runeterra",
-        "positions": [
-            "Top",
-            "Jungle"
-        ],
-        "species": [
-            "Darkin"
-        ],
-        "release_date": "2025-11-19"
-    },
-    {
-        "name": "Zeri",
-        "resource": [
-            "Mana"
-        ],
-        "gender": "female",
-        "species": [
-            "Human",
-            "Magicborn"
-        ],
-        "regions": [
-            "Zaun"
-        ],
-        "positions": [
-            "Bottom"
-        ],
-        "release_date": "2022-01-20",
-        "range_type": [
-            "Range"
-        ]
-    },
-    {
-        "name": "Urf",
-        "species": [
-            "Manatee"
-        ],
-        "regions": [
-            "Runeterra"
-        ],
+        "name": "K'Sante",
+        "resource": "Mana",
         "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "regions": [
+            "Shurima"
+        ],
         "positions": [
-            "Top",
-            "Jungle",
-            "Middle",
-            "Support",
-            "Bottom"
+            "Top"
         ],
-        "resource": [
-            "Unknown"
-        ],
-        "release_date": "2010-04-01",
+        "release_date": "2022-11-02",
         "range_type": [
             "Melee"
         ]
